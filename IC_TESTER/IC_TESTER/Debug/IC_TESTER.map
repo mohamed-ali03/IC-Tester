@@ -1,9 +1,31 @@
 Archive member included to satisfy reference by file (symbol)
 
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              main.o (__udivmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o (exit)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
                               main.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                              main.o (memcpy_P)
+
+Allocating common symbols
+Common symbol       size              file
+
+Interrupt0_callback
+                    0x2               MCAL/External_Interrupt.o
+temp                0xe               main.o
+logic_array         0x3e              main.o
+Interrupt2_callback
+                    0x2               MCAL/External_Interrupt.o
+clk                 0x3e              main.o
+read_Logic_temp     0x2               main.o
+dont_care           0x3e              main.o
+Interrupt1_callback
+                    0x2               MCAL/External_Interrupt.o
+temp_Name           0x6               main.o
 
 Discarded input sections
 
@@ -12,613 +34,37 @@ Discarded input sections
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
- .data.ICs      0x00000000      0x164 main.o
- .data.IC_7486  0x00000000       0x14 main.o
- .data.logic_7486
+ .text.send_char
                 0x00000000        0x8 main.o
- .data.IC_7485  0x00000000       0x14 main.o
- .data.logic_7485
-                0x00000000       0x18 main.o
- .data.IC_7475  0x00000000       0x14 main.o
- .data.logic_7475
-                0x00000000       0x10 main.o
- .data.IC_7474  0x00000000       0x14 main.o
- .data.logic_7474
-                0x00000000       0x10 main.o
- .data.IC_7472  0x00000000       0x14 main.o
- .data.logic_7472
+ .text.send_string
                 0x00000000       0x1a main.o
- .data.IC_7465  0x00000000       0x14 main.o
- .data.logic_7465
-                0x00000000       0x10 main.o
- .data.IC_7462  0x00000000       0x14 main.o
- .data.logic_7462
-                0x00000000       0x10 main.o
- .data.IC_7461  0x00000000       0x14 main.o
- .data.logic_7461
-                0x00000000        0xe main.o
- .data.IC_7460  0x00000000       0x14 main.o
- .data.logic_7460
-                0x00000000        0x8 main.o
- .data.IC_74597
-                0x00000000       0x14 main.o
- .data.logic_74597
-                0x00000000        0xa main.o
- .data.IC_74595
-                0x00000000       0x14 main.o
- .data.logic_74595
-                0x00000000        0xe main.o
- .data.IC_74589
-                0x00000000       0x14 main.o
- .data.logic_74589
-                0x00000000        0xe main.o
- .data.IC_7458  0x00000000       0x14 main.o
- .data.logic_7458
-                0x00000000        0x6 main.o
- .data.IC_7455  0x00000000       0x14 main.o
- .data.logic_7455
-                0x00000000       0x14 main.o
- .data.IC_7451  0x00000000       0x14 main.o
- .data.logic_7451
-                0x00000000       0x14 main.o
- .data.IC_7450  0x00000000       0x14 main.o
- .data.logic_7450
-                0x00000000        0x8 main.o
- .data.IC_7447  0x00000000       0x14 main.o
- .data.logic_7447
-                0x00000000       0x14 main.o
- .data.IC_7446  0x00000000       0x14 main.o
- .data.logic_7446
-                0x00000000       0x14 main.o
- .data.IC_7442  0x00000000       0x14 main.o
- .data.logic_7442
-                0x00000000       0x14 main.o
- .data.IC_7440  0x00000000       0x14 main.o
- .data.logic_7440
-                0x00000000       0x12 main.o
- .data.IC_74393
-                0x00000000       0x14 main.o
- .data.logic_74393
-                0x00000000       0x1e main.o
- .data.IC_74390
-                0x00000000       0x14 main.o
- .data.logic_74390
-                0x00000000       0x18 main.o
- .data.IC_74386
-                0x00000000       0x14 main.o
- .data.logic_74386
-                0x00000000        0x8 main.o
- .data.IC_7438  0x00000000       0x14 main.o
- .data.logic_7438
-                0x00000000        0x8 main.o
- .data.IC_74375
-                0x00000000       0x14 main.o
- .data.logic_74375
-                0x00000000        0x8 main.o
- .data.IC_7437  0x00000000       0x14 main.o
- .data.logic_7437
-                0x00000000        0x8 main.o
- .data.IC_74368
-                0x00000000       0x14 main.o
- .data.logic_74368
-                0x00000000        0x8 main.o
- .data.IC_74367
-                0x00000000       0x14 main.o
- .data.logic_74367
-                0x00000000        0xa main.o
- .data.IC_74366
-                0x00000000       0x14 main.o
- .data.logic_74366
-                0x00000000        0xc main.o
- .data.IC_74365
-                0x00000000       0x14 main.o
- .data.logic_74365
-                0x00000000       0x10 main.o
- .data.IC_7432  0x00000000       0x14 main.o
- .data.logic_7432
-                0x00000000        0x8 main.o
- .data.IC_7430  0x00000000       0x14 main.o
- .data.logic_7430
-                0x00000000       0x14 main.o
- .data.IC_74298
-                0x00000000       0x14 main.o
- .data.logic_74298
-                0x00000000        0x4 main.o
- .data.IC_74294
-                0x00000000       0x14 main.o
- .data.logic_74294
-                0x00000000       0x12 main.o
- .data.IC_74293
-                0x00000000       0x14 main.o
- .data.logic_74293
-                0x00000000       0x18 main.o
- .data.IC_74292
-                0x00000000       0x14 main.o
- .data.logic_74292
-                0x00000000        0xc main.o
- .data.IC_74283
-                0x00000000       0x14 main.o
- .data.logic_74283
-                0x00000000        0xc main.o
- .data.IC_74280
-                0x00000000       0x14 main.o
- .data.logic_74280
-                0x00000000       0x10 main.o
- .data.IC_7428  0x00000000       0x14 main.o
- .data.logic_7428
-                0x00000000        0x8 main.o
- .data.IC_7427  0x00000000       0x14 main.o
- .data.logic_7427
-                0x00000000       0x10 main.o
- .data.IC_74266
-                0x00000000       0x14 main.o
- .data.logic_74266
-                0x00000000        0x8 main.o
- .data.IC_74260
-                0x00000000       0x14 main.o
- .data.logic_74260
-                0x00000000       0x14 main.o
- .data.IC_7426  0x00000000       0x14 main.o
- .data.logic_7426
-                0x00000000        0x8 main.o
- .data.IC_74259
-                0x00000000       0x14 main.o
- .data.logic_74259
-                0x00000000       0x10 main.o
- .data.IC_74258
-                0x00000000       0x14 main.o
- .data.logic_74258
-                0x00000000       0x14 main.o
- .data.IC_74257
-                0x00000000       0x14 main.o
- .data.logic_74257
-                0x00000000       0x14 main.o
- .data.IC_74253
-                0x00000000       0x14 main.o
- .data.logic_74253
-                0x00000000       0x10 main.o
- .data.IC_74251
-                0x00000000       0x14 main.o
- .data.logic_74251
-                0x00000000       0x10 main.o
- .data.IC_7425  0x00000000       0x14 main.o
- .data.logic_7425
-                0x00000000       0x20 main.o
- .data.IC_74243
-                0x00000000       0x14 main.o
- .data.logic_74243
-                0x00000000        0x8 main.o
- .data.IC_74242
-                0x00000000       0x14 main.o
- .data.logic_74242
-                0x00000000        0x8 main.o
- .data.IC_74237
-                0x00000000       0x14 main.o
- .data.logic_74237
-                0x00000000       0x14 main.o
- .data.IC_7422  0x00000000       0x14 main.o
- .data.logic_7422
-                0x00000000       0x20 main.o
- .data.IC_7421  0x00000000       0x14 main.o
- .data.logic_7421
-                0x00000000        0x8 main.o
- .data.IC_7420  0x00000000       0x14 main.o
- .data.logic_7420
-                0x00000000       0x12 main.o
- .data.IC_74195
-                0x00000000       0x14 main.o
- .data.logic_74195
-                0x00000000        0xe main.o
- .data.IC_74194
-                0x00000000       0x14 main.o
- .data.logic_74194
-                0x00000000       0x2e main.o
- .data.IC_74193
-                0x00000000       0x14 main.o
- .data.logic_74193
-                0x00000000       0x3e main.o
- .data.IC_74192
-                0x00000000       0x14 main.o
- .data.logic_74192
-                0x00000000        0xe main.o
- .data.IC_74191
-                0x00000000       0x14 main.o
- .data.logic_74191
-                0x00000000       0x12 main.o
- .data.IC_74190
-                0x00000000       0x14 main.o
- .data.logic_74190
-                0x00000000       0x12 main.o
- .data.IC_74182
-                0x00000000       0x14 main.o
- .data.logic_74182
-                0x00000000        0x4 main.o
- .data.IC_7418  0x00000000       0x14 main.o
- .data.logic_7418
-                0x00000000       0x12 main.o
- .data.IC_74175
-                0x00000000       0x14 main.o
- .data.logic_74175
-                0x00000000        0x8 main.o
- .data.IC_74174
-                0x00000000       0x14 main.o
- .data.logic_74174
-                0x00000000        0xc main.o
- .data.IC_74173
-                0x00000000       0x14 main.o
- .data.logic_74173
-                0x00000000       0x1e main.o
- .data.IC_7417  0x00000000       0x14 main.o
- .data.logic_7417
-                0x00000000        0x4 main.o
- .data.IC_74166
-                0x00000000       0x14 main.o
- .data.logic_74166
-                0x00000000       0x18 main.o
- .data.IC_74165
-                0x00000000       0x14 main.o
- .data.logic_74165
-                0x00000000        0xc main.o
- .data.IC_74164
-                0x00000000       0x14 main.o
- .data.logic_74164
-                0x00000000       0x10 main.o
- .data.IC_74163
-                0x00000000       0x14 main.o
- .data.logic_74163
-                0x00000000       0x22 main.o
- .data.IC_74162
-                0x00000000       0x14 main.o
- .data.logic_74162
-                0x00000000       0x24 main.o
- .data.IC_74161
-                0x00000000       0x14 main.o
- .data.logic_74161
-                0x00000000       0x20 main.o
- .data.IC_74160
-                0x00000000       0x14 main.o
- .data.logic_74160
-                0x00000000       0x1c main.o
- .data.IC_7416  0x00000000       0x14 main.o
- .data.logic_7416
-                0x00000000        0x4 main.o
- .data.IC_74158
-                0x00000000       0x14 main.o
- .data.logic_74158
-                0x00000000       0x14 main.o
- .data.IC_74157
-                0x00000000       0x14 main.o
- .data.logic_74157
-                0x00000000       0x14 main.o
- .data.IC_74153
-                0x00000000       0x14 main.o
- .data.logic_74153
-                0x00000000       0x24 main.o
- .data.IC_74151
-                0x00000000       0x14 main.o
- .data.logic_74151
-                0x00000000       0x24 main.o
- .data.IC_7415  0x00000000       0x14 main.o
- .data.logic_7415
-                0x00000000       0x10 main.o
- .data.IC_74148
-                0x00000000       0x14 main.o
- .data.logic_74148
-                0x00000000       0x14 main.o
- .data.IC_74147
-                0x00000000       0x14 main.o
- .data.logic_74147
-                0x00000000       0x14 main.o
- .data.IC_74145
-                0x00000000       0x14 main.o
- .data.logic_74145
-                0x00000000       0x20 main.o
- .data.IC_74140
-                0x00000000       0x14 main.o
- .data.logic_74140
-                0x00000000       0x12 main.o
- .data.IC_7414  0x00000000       0x14 main.o
- .data.logic_7414
-                0x00000000        0x4 main.o
- .data.IC_74139
-                0x00000000       0x14 main.o
- .data.logic_74139
-                0x00000000        0xc main.o
- .data.IC_74138
-                0x00000000       0x14 main.o
- .data.logic_74138
-                0x00000000       0x18 main.o
- .data.IC_74137
-                0x00000000       0x14 main.o
- .data.logic_74137
-                0x00000000       0x18 main.o
- .data.IC_74136
-                0x00000000       0x14 main.o
- .data.logic_74136
-                0x00000000        0x8 main.o
- .data.IC_74133
-                0x00000000       0x14 main.o
- .data.logic_74133
-                0x00000000       0x1c main.o
- .data.IC_74132
-                0x00000000       0x14 main.o
- .data.logic_74132
-                0x00000000        0x8 main.o
- .data.IC_7413  0x00000000       0x14 main.o
- .data.logic_7413
-                0x00000000       0x12 main.o
- .data.IC_74126
-                0x00000000       0x14 main.o
- .data.logic_74126
-                0x00000000        0x8 main.o
- .data.IC_74125
-                0x00000000       0x14 main.o
- .data.logic_74125
-                0x00000000       0x10 main.o
- .data.IC_74123
-                0x00000000       0x14 main.o
- .data.logic_74123
-                0x00000000        0xc main.o
- .data.IC_7412  0x00000000       0x14 main.o
- .data.logic_7412
-                0x00000000       0x10 main.o
- .data.IC_74113
-                0x00000000       0x14 main.o
- .data.logic_74113
-                0x00000000        0xc main.o
- .data.IC_74112
-                0x00000000       0x14 main.o
- .data.logic_74112
-                0x00000000       0x10 main.o
- .data.IC_7411  0x00000000       0x14 main.o
- .data.logic_7411
-                0x00000000       0x10 main.o
- .data.IC_74109
-                0x00000000       0x14 main.o
- .data.logic_74109
-                0x00000000       0x10 main.o
- .data.IC_74107
-                0x00000000       0x14 main.o
- .data.logic_74107
-                0x00000000        0xc main.o
- .data.IC_7410  0x00000000       0x14 main.o
- .data.logic_7410
-                0x00000000       0x10 main.o
- .data.IC_7409  0x00000000       0x14 main.o
- .data.logic_7409
-                0x00000000        0x8 main.o
- .data.IC_7408  0x00000000       0x14 main.o
- .data.logic_7408
-                0x00000000        0x8 main.o
- .data.IC_7407  0x00000000       0x14 main.o
- .data.logic_7407
-                0x00000000        0x4 main.o
- .data.IC_7406  0x00000000       0x14 main.o
- .data.logic_7406
-                0x00000000        0x4 main.o
- .data.IC_7405  0x00000000       0x14 main.o
- .data.logic_7405
-                0x00000000        0x4 main.o
- .data.IC_7404  0x00000000       0x14 main.o
- .data.logic_7404
-                0x00000000        0x4 main.o
- .data.IC_7403  0x00000000       0x14 main.o
- .data.logic_7403
-                0x00000000        0x8 main.o
- .data.IC_7402  0x00000000       0x14 main.o
- .data.logic_7402
-                0x00000000        0x8 main.o
- .data.IC_7401  0x00000000       0x14 main.o
- .data.logic_7401
-                0x00000000        0x8 main.o
- .data.IC_7400  0x00000000       0x14 main.o
- .data.logic_7400
-                0x00000000        0x8 main.o
- .data.IC_4572  0x00000000       0x14 main.o
- .data.logic_4572
-                0x00000000        0x8 main.o
- .data.IC_4543  0x00000000       0x14 main.o
- .data.logic_4543
-                0x00000000        0x8 main.o
- .data.IC_4532  0x00000000       0x14 main.o
- .data.logic_4532
-                0x00000000       0x14 main.o
- .data.IC_4529  0x00000000       0x14 main.o
- .data.logic_4529
-                0x00000000        0x8 main.o
- .data.IC_4520  0x00000000       0x14 main.o
- .data.logic_4520
-                0x00000000       0x16 main.o
- .data.IC_4519  0x00000000       0x14 main.o
- .data.logic_4519
-                0x00000000        0xc main.o
- .data.IC_4518  0x00000000       0x14 main.o
- .data.logic_4518
-                0x00000000        0xe main.o
- .data.IC_4512  0x00000000       0x14 main.o
- .data.logic_4512
-                0x00000000       0x24 main.o
- .data.IC_4511  0x00000000       0x14 main.o
- .data.logic_4511
-                0x00000000        0xa main.o
- .data.IC_4510  0x00000000       0x14 main.o
- .data.logic_4510
-                0x00000000        0xa main.o
- .data.IC_4503  0x00000000       0x14 main.o
- .data.logic_4503
-                0x00000000        0x8 main.o
- .data.IC_4098  0x00000000       0x14 main.o
- .data.logic_4098
-                0x00000000       0x16 main.o
- .data.IC_4094  0x00000000       0x14 main.o
- .data.logic_4094
-                0x00000000       0x1c main.o
- .data.IC_4093  0x00000000       0x14 main.o
- .data.logic_4093
-                0x00000000        0x8 main.o
- .data.IC_4082  0x00000000       0x14 main.o
- .data.logic_4082
-                0x00000000       0x16 main.o
- .data.IC_4081  0x00000000       0x14 main.o
- .data.logic_4081
-                0x00000000        0x8 main.o
- .data.IC_4078  0x00000000       0x14 main.o
- .data.logic_4078
-                0x00000000       0x14 main.o
- .data.IC_4077  0x00000000       0x14 main.o
- .data.logic_4077
-                0x00000000        0x8 main.o
- .data.IC_4076  0x00000000       0x14 main.o
- .data.logic_4076
-                0x00000000        0x6 main.o
- .data.IC_4075  0x00000000       0x14 main.o
- .data.logic_4075
-                0x00000000       0x10 main.o
- .data.IC_4073  0x00000000       0x14 main.o
- .data.logic_4073
-                0x00000000       0x10 main.o
- .data.IC_4072  0x00000000       0x14 main.o
- .data.logic_4072
-                0x00000000       0x16 main.o
- .data.IC_4071  0x00000000       0x14 main.o
- .data.logic_4071
-                0x00000000        0x8 main.o
- .data.IC_4070  0x00000000       0x14 main.o
- .data.logic_4070
-                0x00000000        0x8 main.o
- .data.IC_4069  0x00000000       0x14 main.o
- .data.logic_4069
-                0x00000000        0x4 main.o
- .data.IC_4068  0x00000000       0x14 main.o
- .data.logic_4068
-                0x00000000       0x14 main.o
- .data.IC_4066  0x00000000       0x14 main.o
- .data.logic_4066
-                0x00000000        0x8 main.o
- .data.IC_4053  0x00000000       0x14 main.o
- .data.logic_4053
-                0x00000000        0xa main.o
- .data.IC_4051  0x00000000       0x14 main.o
- .data.logic_4051
-                0x00000000       0x22 main.o
- .data.IC_4049  0x00000000       0x14 main.o
- .data.logic_4049
-                0x00000000        0x4 main.o
- .data.IC_4048  0x00000000       0x14 main.o
- .data.logic_4048
-                0x00000000        0x8 main.o
- .data.IC_4044  0x00000000       0x14 main.o
- .data.logic_4044
-                0x00000000        0x6 main.o
- .data.IC_4043  0x00000000       0x14 main.o
- .data.logic_4043
-                0x00000000        0x8 main.o
- .data.IC_4042  0x00000000       0x14 main.o
- .data.logic_4042
-                0x00000000        0x6 main.o
- .data.IC_4041  0x00000000       0x14 main.o
- .data.logic_4041
-                0x00000000        0x4 main.o
- .data.IC_4040  0x00000000       0x14 main.o
- .data.logic_4040
-                0x00000000       0x1e main.o
- .data.IC_4031  0x00000000       0x14 main.o
- .data.logic_4031
-                0x00000000        0x8 main.o
- .data.IC_4030  0x00000000       0x14 main.o
- .data.logic_4030
-                0x00000000        0x8 main.o
- .data.IC_4029  0x00000000       0x14 main.o
- .data.logic_4029
-                0x00000000       0x2c main.o
- .data.IC_4028  0x00000000       0x14 main.o
- .data.logic_4028
-                0x00000000       0x14 main.o
- .data.IC_4027  0x00000000       0x14 main.o
- .data.logic_4027
-                0x00000000       0x14 main.o
- .data.IC_4025  0x00000000       0x14 main.o
- .data.logic_4025
-                0x00000000       0x10 main.o
- .data.IC_4024  0x00000000       0x14 main.o
- .data.logic_4024
-                0x00000000       0x1c main.o
- .data.IC_4023  0x00000000       0x14 main.o
- .data.logic_4023
-                0x00000000       0x10 main.o
- .data.IC_4022  0x00000000       0x14 main.o
- .data.logic_4022
-                0x00000000       0x14 main.o
- .data.IC_4020  0x00000000       0x14 main.o
- .data.logic_4020
-                0x00000000       0x24 main.o
- .data.IC_40193
-                0x00000000       0x14 main.o
- .data.logic_40193
-                0x00000000       0x1c main.o
- .data.IC_40192
-                0x00000000       0x14 main.o
- .data.logic_40192
-                0x00000000       0x1c main.o
- .data.IC_4019  0x00000000       0x14 main.o
- .data.logic_4019
-                0x00000000        0xc main.o
- .data.IC_4018  0x00000000       0x14 main.o
- .data.logic_4018
-                0x00000000       0x14 main.o
- .data.IC_40175
-                0x00000000       0x14 main.o
- .data.logic_40175
-                0x00000000        0x8 main.o
- .data.IC_40174
-                0x00000000       0x14 main.o
- .data.logic_40174
-                0x00000000        0x8 main.o
- .data.IC_4017  0x00000000       0x14 main.o
- .data.logic_4017
-                0x00000000       0x18 main.o
- .data.IC_40162
-                0x00000000       0x14 main.o
- .data.logic_40162
-                0x00000000       0x1a main.o
- .data.IC_40161
-                0x00000000       0x14 main.o
- .data.logic_40161
-                0x00000000       0x18 main.o
- .data.IC_4016  0x00000000       0x14 main.o
- .data.logic_4016
-                0x00000000        0x8 main.o
- .data.IC_4015  0x00000000       0x14 main.o
- .data.logic_4015
-                0x00000000        0xa main.o
- .data.IC_4013  0x00000000       0x14 main.o
- .data.logic_4013
-                0x00000000        0x8 main.o
- .data.IC_4012  0x00000000       0x14 main.o
- .data.logic_4012
-                0x00000000        0x8 main.o
- .data.IC_4011  0x00000000       0x14 main.o
- .data.logic_4011
-                0x00000000        0x8 main.o
- .data.IC_40106
-                0x00000000       0x14 main.o
- .data.logic_40106
-                0x00000000        0x4 main.o
- .data.IC_4010  0x00000000       0x14 main.o
- .data.logic_4010
-                0x00000000        0x4 main.o
- .data.IC_4009  0x00000000       0x14 main.o
- .data.logic_4009
-                0x00000000        0x4 main.o
- .data.IC_4002  0x00000000       0x14 main.o
- .data.logic_4002
-                0x00000000       0x14 main.o
- .data.IC_4001  0x00000000       0x14 main.o
- .data.logic_4001
-                0x00000000        0x8 main.o
- .data.IC_4000  0x00000000       0x14 main.o
- .data.logic_4000
-                0x00000000       0x12 main.o
+ .text          0x00000000        0x0 MCAL/External_Interrupt.o
+ .data          0x00000000        0x0 MCAL/External_Interrupt.o
+ .bss           0x00000000        0x0 MCAL/External_Interrupt.o
+ .text          0x00000000        0x0 MCAL/USART/USART.o
+ .data          0x00000000        0x0 MCAL/USART/USART.o
+ .bss           0x00000000        0x0 MCAL/USART/USART.o
+ .debug_info    0x00000000       0x56 MCAL/USART/USART.o
+ .debug_abbrev  0x00000000       0x26 MCAL/USART/USART.o
+ .debug_aranges
+                0x00000000       0x18 MCAL/USART/USART.o
+ .debug_line    0x00000000       0x1a MCAL/USART/USART.o
+ .debug_str     0x00000000      0x16a MCAL/USART/USART.o
+ .comment       0x00000000       0x31 MCAL/USART/USART.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
@@ -651,6 +97,25 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
 
 Memory Configuration
 
@@ -668,6 +133,8 @@ Linker script and memory map
 
 LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
 LOAD main.o
+LOAD MCAL/External_Interrupt.o
+LOAD MCAL/USART/USART.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
 END GROUP
@@ -777,7 +244,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000       0x88
+.text           0x00000000     0x31b0
  *(.vectors)
  .vectors       0x00000000       0x54 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
                 0x00000000                __vector_default
@@ -793,33 +260,2171 @@ END GROUP
  *libprintf_flt.a:*(.progmem.data)
  *libc.a:*(.progmem.data)
  *(.progmem*)
-                0x00000054                . = ALIGN (0x2)
+ .progmem.data.IC_7486
+                0x00000054        0xe main.o
+                0x00000054                IC_7486
+ .progmem.data.CLK_7486
+                0x00000062        0x8 main.o
+                0x00000062                CLK_7486
+ .progmem.data.Dont_care_7486
+                0x0000006a        0x8 main.o
+                0x0000006a                Dont_care_7486
+ .progmem.data.logic_7486
+                0x00000072        0x8 main.o
+                0x00000072                logic_7486
+ .progmem.data.IC_7485
+                0x0000007a        0xe main.o
+                0x0000007a                IC_7485
+ .progmem.data.CLK_7485
+                0x00000088       0x18 main.o
+                0x00000088                CLK_7485
+ .progmem.data.Dont_care_7485
+                0x000000a0       0x18 main.o
+                0x000000a0                Dont_care_7485
+ .progmem.data.logic_7485
+                0x000000b8       0x18 main.o
+                0x000000b8                logic_7485
+ .progmem.data.IC_7475
+                0x000000d0        0xe main.o
+                0x000000d0                IC_7475
+ .progmem.data.CLK_7475
+                0x000000de       0x10 main.o
+                0x000000de                CLK_7475
+ .progmem.data.Dont_care_7475
+                0x000000ee       0x10 main.o
+                0x000000ee                Dont_care_7475
+ .progmem.data.logic_7475
+                0x000000fe       0x10 main.o
+                0x000000fe                logic_7475
+ .progmem.data.IC_7474
+                0x0000010e        0xe main.o
+                0x0000010e                IC_7474
+ .progmem.data.CLK_7474
+                0x0000011c       0x10 main.o
+                0x0000011c                CLK_7474
+ .progmem.data.Dont_care_7474
+                0x0000012c       0x10 main.o
+                0x0000012c                Dont_care_7474
+ .progmem.data.logic_7474
+                0x0000013c       0x10 main.o
+                0x0000013c                logic_7474
+ .progmem.data.IC_7472
+                0x0000014c        0xe main.o
+                0x0000014c                IC_7472
+ .progmem.data.CLK_7472
+                0x0000015a       0x1a main.o
+                0x0000015a                CLK_7472
+ .progmem.data.Dont_care_7472
+                0x00000174       0x1a main.o
+                0x00000174                Dont_care_7472
+ .progmem.data.logic_7472
+                0x0000018e       0x1a main.o
+                0x0000018e                logic_7472
+ .progmem.data.IC_7465
+                0x000001a8        0xe main.o
+                0x000001a8                IC_7465
+ .progmem.data.CLK_7465
+                0x000001b6       0x10 main.o
+                0x000001b6                CLK_7465
+ .progmem.data.Dont_care_7465
+                0x000001c6       0x10 main.o
+                0x000001c6                Dont_care_7465
+ .progmem.data.logic_7465
+                0x000001d6       0x10 main.o
+                0x000001d6                logic_7465
+ .progmem.data.IC_7462
+                0x000001e6        0xe main.o
+                0x000001e6                IC_7462
+ .progmem.data.CLK_7462
+                0x000001f4       0x10 main.o
+                0x000001f4                CLK_7462
+ .progmem.data.Dont_care_7462
+                0x00000204       0x10 main.o
+                0x00000204                Dont_care_7462
+ .progmem.data.logic_7462
+                0x00000214       0x10 main.o
+                0x00000214                logic_7462
+ .progmem.data.IC_7461
+                0x00000224        0xe main.o
+                0x00000224                IC_7461
+ .progmem.data.CLK_7461
+                0x00000232        0xe main.o
+                0x00000232                CLK_7461
+ .progmem.data.Dont_care_7461
+                0x00000240        0xe main.o
+                0x00000240                Dont_care_7461
+ .progmem.data.logic_7461
+                0x0000024e        0xe main.o
+                0x0000024e                logic_7461
+ .progmem.data.IC_7460
+                0x0000025c        0xe main.o
+                0x0000025c                IC_7460
+ .progmem.data.CLK_7460
+                0x0000026a        0x8 main.o
+                0x0000026a                CLK_7460
+ .progmem.data.Dont_care_7460
+                0x00000272        0x8 main.o
+                0x00000272                Dont_care_7460
+ .progmem.data.logic_7460
+                0x0000027a        0x8 main.o
+                0x0000027a                logic_7460
+ .progmem.data.IC_74597
+                0x00000282        0xe main.o
+                0x00000282                IC_74597
+ .progmem.data.CLK_74597
+                0x00000290        0xa main.o
+                0x00000290                CLK_74597
+ .progmem.data.Dont_care_74597
+                0x0000029a        0xa main.o
+                0x0000029a                Dont_care_74597
+ .progmem.data.logic_74597
+                0x000002a4        0xa main.o
+                0x000002a4                logic_74597
+ .progmem.data.IC_74595
+                0x000002ae        0xe main.o
+                0x000002ae                IC_74595
+ .progmem.data.CLK_74595
+                0x000002bc        0xe main.o
+                0x000002bc                CLK_74595
+ .progmem.data.Dont_care_74595
+                0x000002ca        0xe main.o
+                0x000002ca                Dont_care_74595
+ .progmem.data.logic_74595
+                0x000002d8        0xe main.o
+                0x000002d8                logic_74595
+ .progmem.data.IC_74589
+                0x000002e6        0xe main.o
+                0x000002e6                IC_74589
+ .progmem.data.CLK_74589
+                0x000002f4        0xe main.o
+                0x000002f4                CLK_74589
+ .progmem.data.Dont_care_74589
+                0x00000302        0xe main.o
+                0x00000302                Dont_care_74589
+ .progmem.data.logic_74589
+                0x00000310        0xe main.o
+                0x00000310                logic_74589
+ .progmem.data.IC_7458
+                0x0000031e        0xe main.o
+                0x0000031e                IC_7458
+ .progmem.data.CLK_7458
+                0x0000032c        0x6 main.o
+                0x0000032c                CLK_7458
+ .progmem.data.Dont_care_7458
+                0x00000332        0x6 main.o
+                0x00000332                Dont_care_7458
+ .progmem.data.logic_7458
+                0x00000338        0x6 main.o
+                0x00000338                logic_7458
+ .progmem.data.IC_7455
+                0x0000033e        0xe main.o
+                0x0000033e                IC_7455
+ .progmem.data.CLK_7455
+                0x0000034c       0x14 main.o
+                0x0000034c                CLK_7455
+ .progmem.data.Dont_care_7455
+                0x00000360       0x14 main.o
+                0x00000360                Dont_care_7455
+ .progmem.data.logic_7455
+                0x00000374       0x14 main.o
+                0x00000374                logic_7455
+ .progmem.data.IC_7451
+                0x00000388        0xe main.o
+                0x00000388                IC_7451
+ .progmem.data.CLK_7451
+                0x00000396       0x14 main.o
+                0x00000396                CLK_7451
+ .progmem.data.Dont_care_7451
+                0x000003aa       0x14 main.o
+                0x000003aa                Dont_care_7451
+ .progmem.data.logic_7451
+                0x000003be       0x14 main.o
+                0x000003be                logic_7451
+ .progmem.data.IC_7450
+                0x000003d2        0xe main.o
+                0x000003d2                IC_7450
+ .progmem.data.CLK_7450
+                0x000003e0        0x8 main.o
+                0x000003e0                CLK_7450
+ .progmem.data.Dont_care_7450
+                0x000003e8        0x8 main.o
+                0x000003e8                Dont_care_7450
+ .progmem.data.logic_7450
+                0x000003f0        0x8 main.o
+                0x000003f0                logic_7450
+ .progmem.data.IC_7447
+                0x000003f8        0xe main.o
+                0x000003f8                IC_7447
+ .progmem.data.CLK_7447
+                0x00000406       0x14 main.o
+                0x00000406                CLK_7447
+ .progmem.data.Dont_care_7447
+                0x0000041a       0x14 main.o
+                0x0000041a                Dont_care_7447
+ .progmem.data.logic_7447
+                0x0000042e       0x14 main.o
+                0x0000042e                logic_7447
+ .progmem.data.IC_7446
+                0x00000442        0xe main.o
+                0x00000442                IC_7446
+ .progmem.data.CLK_7446
+                0x00000450       0x14 main.o
+                0x00000450                CLK_7446
+ .progmem.data.Dont_care_7446
+                0x00000464       0x14 main.o
+                0x00000464                Dont_care_7446
+ .progmem.data.logic_7446
+                0x00000478       0x14 main.o
+                0x00000478                logic_7446
+ .progmem.data.IC_7442
+                0x0000048c        0xe main.o
+                0x0000048c                IC_7442
+ .progmem.data.CLK_7442
+                0x0000049a       0x14 main.o
+                0x0000049a                CLK_7442
+ .progmem.data.Dont_care_7442
+                0x000004ae       0x14 main.o
+                0x000004ae                Dont_care_7442
+ .progmem.data.logic_7442
+                0x000004c2       0x14 main.o
+                0x000004c2                logic_7442
+ .progmem.data.IC_7440
+                0x000004d6        0xe main.o
+                0x000004d6                IC_7440
+ .progmem.data.CLK_7440
+                0x000004e4       0x12 main.o
+                0x000004e4                CLK_7440
+ .progmem.data.Dont_care_7440
+                0x000004f6       0x12 main.o
+                0x000004f6                Dont_care_7440
+ .progmem.data.logic_7440
+                0x00000508       0x12 main.o
+                0x00000508                logic_7440
+ .progmem.data.IC_74393
+                0x0000051a        0xe main.o
+                0x0000051a                IC_74393
+ .progmem.data.CLK_74393
+                0x00000528       0x1e main.o
+                0x00000528                CLK_74393
+ .progmem.data.Dont_care_74393
+                0x00000546       0x1e main.o
+                0x00000546                Dont_care_74393
+ .progmem.data.logic_74393
+                0x00000564       0x1e main.o
+                0x00000564                logic_74393
+ .progmem.data.IC_74390
+                0x00000582        0xe main.o
+                0x00000582                IC_74390
+ .progmem.data.CLK_74390
+                0x00000590       0x18 main.o
+                0x00000590                CLK_74390
+ .progmem.data.Dont_care_74390
+                0x000005a8       0x18 main.o
+                0x000005a8                Dont_care_74390
+ .progmem.data.logic_74390
+                0x000005c0       0x18 main.o
+                0x000005c0                logic_74390
+ .progmem.data.IC_74386
+                0x000005d8        0xe main.o
+                0x000005d8                IC_74386
+ .progmem.data.CLK_74386
+                0x000005e6        0x8 main.o
+                0x000005e6                CLK_74386
+ .progmem.data.Dont_care_74386
+                0x000005ee        0x8 main.o
+                0x000005ee                Dont_care_74386
+ .progmem.data.logic_74386
+                0x000005f6        0x8 main.o
+                0x000005f6                logic_74386
+ .progmem.data.IC_7438
+                0x000005fe        0xe main.o
+                0x000005fe                IC_7438
+ .progmem.data.CLK_7438
+                0x0000060c        0x8 main.o
+                0x0000060c                CLK_7438
+ .progmem.data.Dont_care_7438
+                0x00000614        0x8 main.o
+                0x00000614                Dont_care_7438
+ .progmem.data.logic_7438
+                0x0000061c        0x8 main.o
+                0x0000061c                logic_7438
+ .progmem.data.IC_74375
+                0x00000624        0xe main.o
+                0x00000624                IC_74375
+ .progmem.data.CLK_74375
+                0x00000632        0x8 main.o
+                0x00000632                CLK_74375
+ .progmem.data.Dont_care_74375
+                0x0000063a        0x8 main.o
+                0x0000063a                Dont_care_74375
+ .progmem.data.logic_74375
+                0x00000642        0x8 main.o
+                0x00000642                logic_74375
+ .progmem.data.IC_7437
+                0x0000064a        0xe main.o
+                0x0000064a                IC_7437
+ .progmem.data.CLK_7437
+                0x00000658        0x8 main.o
+                0x00000658                CLK_7437
+ .progmem.data.Dont_care_7437
+                0x00000660        0x8 main.o
+                0x00000660                Dont_care_7437
+ .progmem.data.logic_7437
+                0x00000668        0x8 main.o
+                0x00000668                logic_7437
+ .progmem.data.IC_74368
+                0x00000670        0xe main.o
+                0x00000670                IC_74368
+ .progmem.data.CLK_74368
+                0x0000067e        0x8 main.o
+                0x0000067e                CLK_74368
+ .progmem.data.Dont_care_74368
+                0x00000686        0x8 main.o
+                0x00000686                Dont_care_74368
+ .progmem.data.logic_74368
+                0x0000068e        0x8 main.o
+                0x0000068e                logic_74368
+ .progmem.data.IC_74367
+                0x00000696        0xe main.o
+                0x00000696                IC_74367
+ .progmem.data.CLK_74367
+                0x000006a4        0xa main.o
+                0x000006a4                CLK_74367
+ .progmem.data.Dont_care_74367
+                0x000006ae        0xa main.o
+                0x000006ae                Dont_care_74367
+ .progmem.data.logic_74367
+                0x000006b8        0xa main.o
+                0x000006b8                logic_74367
+ .progmem.data.IC_74366
+                0x000006c2        0xe main.o
+                0x000006c2                IC_74366
+ .progmem.data.CLK_74366
+                0x000006d0        0xc main.o
+                0x000006d0                CLK_74366
+ .progmem.data.Dont_care_74366
+                0x000006dc        0xc main.o
+                0x000006dc                Dont_care_74366
+ .progmem.data.logic_74366
+                0x000006e8        0xc main.o
+                0x000006e8                logic_74366
+ .progmem.data.IC_74365
+                0x000006f4        0xe main.o
+                0x000006f4                IC_74365
+ .progmem.data.CLK_74365
+                0x00000702       0x10 main.o
+                0x00000702                CLK_74365
+ .progmem.data.Dont_care_74365
+                0x00000712       0x10 main.o
+                0x00000712                Dont_care_74365
+ .progmem.data.logic_74365
+                0x00000722       0x10 main.o
+                0x00000722                logic_74365
+ .progmem.data.IC_7432
+                0x00000732        0xe main.o
+                0x00000732                IC_7432
+ .progmem.data.CLK_7432
+                0x00000740        0x8 main.o
+                0x00000740                CLK_7432
+ .progmem.data.Dont_care_7432
+                0x00000748        0x8 main.o
+                0x00000748                Dont_care_7432
+ .progmem.data.logic_7432
+                0x00000750        0x8 main.o
+                0x00000750                logic_7432
+ .progmem.data.IC_7430
+                0x00000758        0xe main.o
+                0x00000758                IC_7430
+ .progmem.data.CLK_7430
+                0x00000766       0x14 main.o
+                0x00000766                CLK_7430
+ .progmem.data.Dont_care_7430
+                0x0000077a       0x14 main.o
+                0x0000077a                Dont_care_7430
+ .progmem.data.logic_7430
+                0x0000078e       0x14 main.o
+                0x0000078e                logic_7430
+ .progmem.data.IC_74298
+                0x000007a2        0xe main.o
+                0x000007a2                IC_74298
+ .progmem.data.CLK_74298
+                0x000007b0        0x4 main.o
+                0x000007b0                CLK_74298
+ .progmem.data.Dont_care_74298
+                0x000007b4        0x4 main.o
+                0x000007b4                Dont_care_74298
+ .progmem.data.logic_74298
+                0x000007b8        0x4 main.o
+                0x000007b8                logic_74298
+ .progmem.data.IC_74294
+                0x000007bc        0xe main.o
+                0x000007bc                IC_74294
+ .progmem.data.CLK_74294
+                0x000007ca       0x12 main.o
+                0x000007ca                CLK_74294
+ .progmem.data.Dont_care_74294
+                0x000007dc       0x12 main.o
+                0x000007dc                Dont_care_74294
+ .progmem.data.logic_74294
+                0x000007ee       0x12 main.o
+                0x000007ee                logic_74294
+ .progmem.data.IC_74293
+                0x00000800        0xe main.o
+                0x00000800                IC_74293
+ .progmem.data.CLK_74293
+                0x0000080e       0x18 main.o
+                0x0000080e                CLK_74293
+ .progmem.data.Dont_care_74293
+                0x00000826       0x18 main.o
+                0x00000826                Dont_care_74293
+ .progmem.data.logic_74293
+                0x0000083e       0x18 main.o
+                0x0000083e                logic_74293
+ .progmem.data.IC_74292
+                0x00000856        0xe main.o
+                0x00000856                IC_74292
+ .progmem.data.CLK_74292
+                0x00000864        0xc main.o
+                0x00000864                CLK_74292
+ .progmem.data.Dont_care_74292
+                0x00000870        0xc main.o
+                0x00000870                Dont_care_74292
+ .progmem.data.logic_74292
+                0x0000087c        0xc main.o
+                0x0000087c                logic_74292
+ .progmem.data.IC_74283
+                0x00000888        0xe main.o
+                0x00000888                IC_74283
+ .progmem.data.CLK_74283
+                0x00000896        0xc main.o
+                0x00000896                CLK_74283
+ .progmem.data.Dont_care_74283
+                0x000008a2        0xc main.o
+                0x000008a2                Dont_care_74283
+ .progmem.data.logic_74283
+                0x000008ae        0xc main.o
+                0x000008ae                logic_74283
+ .progmem.data.IC_74280
+                0x000008ba        0xe main.o
+                0x000008ba                IC_74280
+ .progmem.data.CLK_74280
+                0x000008c8       0x10 main.o
+                0x000008c8                CLK_74280
+ .progmem.data.Dont_care_74280
+                0x000008d8       0x10 main.o
+                0x000008d8                Dont_care_74280
+ .progmem.data.logic_74280
+                0x000008e8       0x10 main.o
+                0x000008e8                logic_74280
+ .progmem.data.IC_7428
+                0x000008f8        0xe main.o
+                0x000008f8                IC_7428
+ .progmem.data.CLK_7428
+                0x00000906        0x8 main.o
+                0x00000906                CLK_7428
+ .progmem.data.Dont_care_7428
+                0x0000090e        0x8 main.o
+                0x0000090e                Dont_care_7428
+ .progmem.data.logic_7428
+                0x00000916        0x8 main.o
+                0x00000916                logic_7428
+ .progmem.data.IC_7427
+                0x0000091e        0xe main.o
+                0x0000091e                IC_7427
+ .progmem.data.CLK_7427
+                0x0000092c       0x10 main.o
+                0x0000092c                CLK_7427
+ .progmem.data.Dont_care_7427
+                0x0000093c       0x10 main.o
+                0x0000093c                Dont_care_7427
+ .progmem.data.logic_7427
+                0x0000094c       0x10 main.o
+                0x0000094c                logic_7427
+ .progmem.data.IC_74266
+                0x0000095c        0xe main.o
+                0x0000095c                IC_74266
+ .progmem.data.CLK_74266
+                0x0000096a        0x8 main.o
+                0x0000096a                CLK_74266
+ .progmem.data.Dont_care_74266
+                0x00000972        0x8 main.o
+                0x00000972                Dont_care_74266
+ .progmem.data.logic_74266
+                0x0000097a        0x8 main.o
+                0x0000097a                logic_74266
+ .progmem.data.IC_74260
+                0x00000982        0xe main.o
+                0x00000982                IC_74260
+ .progmem.data.CLK_74260
+                0x00000990       0x14 main.o
+                0x00000990                CLK_74260
+ .progmem.data.Dont_care_74260
+                0x000009a4       0x14 main.o
+                0x000009a4                Dont_care_74260
+ .progmem.data.logic_74260
+                0x000009b8       0x14 main.o
+                0x000009b8                logic_74260
+ .progmem.data.IC_7426
+                0x000009cc        0xe main.o
+                0x000009cc                IC_7426
+ .progmem.data.CLK_7426
+                0x000009da        0x8 main.o
+                0x000009da                CLK_7426
+ .progmem.data.Dont_care_7426
+                0x000009e2        0x8 main.o
+                0x000009e2                Dont_care_7426
+ .progmem.data.logic_7426
+                0x000009ea        0x8 main.o
+                0x000009ea                logic_7426
+ .progmem.data.IC_74259
+                0x000009f2        0xe main.o
+                0x000009f2                IC_74259
+ .progmem.data.CLK_74259
+                0x00000a00       0x10 main.o
+                0x00000a00                CLK_74259
+ .progmem.data.Dont_care_74259
+                0x00000a10       0x10 main.o
+                0x00000a10                Dont_care_74259
+ .progmem.data.logic_74259
+                0x00000a20       0x10 main.o
+                0x00000a20                logic_74259
+ .progmem.data.IC_74258
+                0x00000a30        0xe main.o
+                0x00000a30                IC_74258
+ .progmem.data.CLK_74258
+                0x00000a3e       0x14 main.o
+                0x00000a3e                CLK_74258
+ .progmem.data.Dont_care_74258
+                0x00000a52       0x14 main.o
+                0x00000a52                Dont_care_74258
+ .progmem.data.logic_74258
+                0x00000a66       0x14 main.o
+                0x00000a66                logic_74258
+ .progmem.data.IC_74257
+                0x00000a7a        0xe main.o
+                0x00000a7a                IC_74257
+ .progmem.data.CLK_74257
+                0x00000a88       0x14 main.o
+                0x00000a88                CLK_74257
+ .progmem.data.Dont_care_74257
+                0x00000a9c       0x14 main.o
+                0x00000a9c                Dont_care_74257
+ .progmem.data.logic_74257
+                0x00000ab0       0x14 main.o
+                0x00000ab0                logic_74257
+ .progmem.data.IC_74253
+                0x00000ac4        0xe main.o
+                0x00000ac4                IC_74253
+ .progmem.data.CLK_74253
+                0x00000ad2       0x10 main.o
+                0x00000ad2                CLK_74253
+ .progmem.data.Dont_care_74253
+                0x00000ae2       0x10 main.o
+                0x00000ae2                Dont_care_74253
+ .progmem.data.logic_74253
+                0x00000af2       0x10 main.o
+                0x00000af2                logic_74253
+ .progmem.data.IC_74251
+                0x00000b02        0xe main.o
+                0x00000b02                IC_74251
+ .progmem.data.CLK_74251
+                0x00000b10       0x10 main.o
+                0x00000b10                CLK_74251
+ .progmem.data.Dont_care_74251
+                0x00000b20       0x10 main.o
+                0x00000b20                Dont_care_74251
+ .progmem.data.logic_74251
+                0x00000b30       0x10 main.o
+                0x00000b30                logic_74251
+ .progmem.data.IC_7425
+                0x00000b40        0xe main.o
+                0x00000b40                IC_7425
+ .progmem.data.CLK_7425
+                0x00000b4e       0x20 main.o
+                0x00000b4e                CLK_7425
+ .progmem.data.Dont_care_7425
+                0x00000b6e       0x20 main.o
+                0x00000b6e                Dont_care_7425
+ .progmem.data.logic_7425
+                0x00000b8e       0x20 main.o
+                0x00000b8e                logic_7425
+ .progmem.data.IC_74243
+                0x00000bae        0xe main.o
+                0x00000bae                IC_74243
+ .progmem.data.CLK_74243
+                0x00000bbc        0x8 main.o
+                0x00000bbc                CLK_74243
+ .progmem.data.Dont_care_74243
+                0x00000bc4        0x8 main.o
+                0x00000bc4                Dont_care_74243
+ .progmem.data.logic_74243
+                0x00000bcc        0x8 main.o
+                0x00000bcc                logic_74243
+ .progmem.data.IC_74242
+                0x00000bd4        0xe main.o
+                0x00000bd4                IC_74242
+ .progmem.data.CLK_74242
+                0x00000be2        0x8 main.o
+                0x00000be2                CLK_74242
+ .progmem.data.Dont_care_74242
+                0x00000bea        0x8 main.o
+                0x00000bea                Dont_care_74242
+ .progmem.data.logic_74242
+                0x00000bf2        0x8 main.o
+                0x00000bf2                logic_74242
+ .progmem.data.IC_74237
+                0x00000bfa        0xe main.o
+                0x00000bfa                IC_74237
+ .progmem.data.CLK_74237
+                0x00000c08       0x14 main.o
+                0x00000c08                CLK_74237
+ .progmem.data.Dont_care_74237
+                0x00000c1c       0x14 main.o
+                0x00000c1c                Dont_care_74237
+ .progmem.data.logic_74237
+                0x00000c30       0x14 main.o
+                0x00000c30                logic_74237
+ .progmem.data.IC_7422
+                0x00000c44        0xe main.o
+                0x00000c44                IC_7422
+ .progmem.data.CLK_7422
+                0x00000c52       0x20 main.o
+                0x00000c52                CLK_7422
+ .progmem.data.Dont_care_7422
+                0x00000c72       0x20 main.o
+                0x00000c72                Dont_care_7422
+ .progmem.data.logic_7422
+                0x00000c92       0x20 main.o
+                0x00000c92                logic_7422
+ .progmem.data.IC_7421
+                0x00000cb2        0xe main.o
+                0x00000cb2                IC_7421
+ .progmem.data.CLK_7421
+                0x00000cc0        0x8 main.o
+                0x00000cc0                CLK_7421
+ .progmem.data.Dont_care_7421
+                0x00000cc8        0x8 main.o
+                0x00000cc8                Dont_care_7421
+ .progmem.data.logic_7421
+                0x00000cd0        0x8 main.o
+                0x00000cd0                logic_7421
+ .progmem.data.IC_7420
+                0x00000cd8        0xe main.o
+                0x00000cd8                IC_7420
+ .progmem.data.CLK_7420
+                0x00000ce6       0x12 main.o
+                0x00000ce6                CLK_7420
+ .progmem.data.Dont_care_7420
+                0x00000cf8       0x12 main.o
+                0x00000cf8                Dont_care_7420
+ .progmem.data.logic_7420
+                0x00000d0a       0x12 main.o
+                0x00000d0a                logic_7420
+ .progmem.data.IC_74195
+                0x00000d1c        0xe main.o
+                0x00000d1c                IC_74195
+ .progmem.data.CLK_74195
+                0x00000d2a        0xe main.o
+                0x00000d2a                CLK_74195
+ .progmem.data.Dont_care_74195
+                0x00000d38        0xe main.o
+                0x00000d38                Dont_care_74195
+ .progmem.data.logic_74195
+                0x00000d46        0xe main.o
+                0x00000d46                logic_74195
+ .progmem.data.IC_74194
+                0x00000d54        0xe main.o
+                0x00000d54                IC_74194
+ .progmem.data.CLK_74194
+                0x00000d62       0x2e main.o
+                0x00000d62                CLK_74194
+ .progmem.data.Dont_care_74194
+                0x00000d90       0x2e main.o
+                0x00000d90                Dont_care_74194
+ .progmem.data.logic_74194
+                0x00000dbe       0x2e main.o
+                0x00000dbe                logic_74194
+ .progmem.data.IC_74193
+                0x00000dec        0xe main.o
+                0x00000dec                IC_74193
+ .progmem.data.CLK_74193
+                0x00000dfa       0x3e main.o
+                0x00000dfa                CLK_74193
+ .progmem.data.Dont_care_74193
+                0x00000e38       0x3e main.o
+                0x00000e38                Dont_care_74193
+ .progmem.data.logic_74193
+                0x00000e76       0x3e main.o
+                0x00000e76                logic_74193
+ .progmem.data.IC_74192
+                0x00000eb4        0xe main.o
+                0x00000eb4                IC_74192
+ .progmem.data.CLK_74192
+                0x00000ec2        0xe main.o
+                0x00000ec2                CLK_74192
+ .progmem.data.Dont_care_74192
+                0x00000ed0        0xe main.o
+                0x00000ed0                Dont_care_74192
+ .progmem.data.logic_74192
+                0x00000ede        0xe main.o
+                0x00000ede                logic_74192
+ .progmem.data.IC_74191
+                0x00000eec        0xe main.o
+                0x00000eec                IC_74191
+ .progmem.data.CLK_74191
+                0x00000efa       0x12 main.o
+                0x00000efa                CLK_74191
+ .progmem.data.Dont_care_74191
+                0x00000f0c       0x12 main.o
+                0x00000f0c                Dont_care_74191
+ .progmem.data.logic_74191
+                0x00000f1e       0x12 main.o
+                0x00000f1e                logic_74191
+ .progmem.data.IC_74190
+                0x00000f30        0xe main.o
+                0x00000f30                IC_74190
+ .progmem.data.CLK_74190
+                0x00000f3e       0x12 main.o
+                0x00000f3e                CLK_74190
+ .progmem.data.Dont_care_74190
+                0x00000f50       0x12 main.o
+                0x00000f50                Dont_care_74190
+ .progmem.data.logic_74190
+                0x00000f62       0x12 main.o
+                0x00000f62                logic_74190
+ .progmem.data.IC_74182
+                0x00000f74        0xe main.o
+                0x00000f74                IC_74182
+ .progmem.data.CLK_74182
+                0x00000f82        0x4 main.o
+                0x00000f82                CLK_74182
+ .progmem.data.Dont_care_74182
+                0x00000f86        0x4 main.o
+                0x00000f86                Dont_care_74182
+ .progmem.data.logic_74182
+                0x00000f8a        0x4 main.o
+                0x00000f8a                logic_74182
+ .progmem.data.IC_7418
+                0x00000f8e        0xe main.o
+                0x00000f8e                IC_7418
+ .progmem.data.CLK_7418
+                0x00000f9c       0x12 main.o
+                0x00000f9c                CLK_7418
+ .progmem.data.Dont_care_7418
+                0x00000fae       0x12 main.o
+                0x00000fae                Dont_care_7418
+ .progmem.data.logic_7418
+                0x00000fc0       0x12 main.o
+                0x00000fc0                logic_7418
+ .progmem.data.IC_74175
+                0x00000fd2        0xe main.o
+                0x00000fd2                IC_74175
+ .progmem.data.CLK_74175
+                0x00000fe0        0x8 main.o
+                0x00000fe0                CLK_74175
+ .progmem.data.Dont_care_74175
+                0x00000fe8        0x8 main.o
+                0x00000fe8                Dont_care_74175
+ .progmem.data.logic_74175
+                0x00000ff0        0x8 main.o
+                0x00000ff0                logic_74175
+ .progmem.data.IC_74174
+                0x00000ff8        0xe main.o
+                0x00000ff8                IC_74174
+ .progmem.data.CLK_74174
+                0x00001006        0xc main.o
+                0x00001006                CLK_74174
+ .progmem.data.Dont_care_74174
+                0x00001012        0xc main.o
+                0x00001012                Dont_care_74174
+ .progmem.data.logic_74174
+                0x0000101e        0xc main.o
+                0x0000101e                logic_74174
+ .progmem.data.IC_74173
+                0x0000102a        0xe main.o
+                0x0000102a                IC_74173
+ .progmem.data.CLK_74173
+                0x00001038       0x1e main.o
+                0x00001038                CLK_74173
+ .progmem.data.Dont_care_74173
+                0x00001056       0x1e main.o
+                0x00001056                Dont_care_74173
+ .progmem.data.logic_74173
+                0x00001074       0x1e main.o
+                0x00001074                logic_74173
+ .progmem.data.IC_7417
+                0x00001092        0xe main.o
+                0x00001092                IC_7417
+ .progmem.data.CLK_7417
+                0x000010a0        0x4 main.o
+                0x000010a0                CLK_7417
+ .progmem.data.Dont_care_7417
+                0x000010a4        0x4 main.o
+                0x000010a4                Dont_care_7417
+ .progmem.data.logic_7417
+                0x000010a8        0x4 main.o
+                0x000010a8                logic_7417
+ .progmem.data.IC_74166
+                0x000010ac        0xe main.o
+                0x000010ac                IC_74166
+ .progmem.data.CLK_74166
+                0x000010ba       0x18 main.o
+                0x000010ba                CLK_74166
+ .progmem.data.Dont_care_74166
+                0x000010d2       0x18 main.o
+                0x000010d2                Dont_care_74166
+ .progmem.data.logic_74166
+                0x000010ea       0x18 main.o
+                0x000010ea                logic_74166
+ .progmem.data.IC_74165
+                0x00001102        0xe main.o
+                0x00001102                IC_74165
+ .progmem.data.CLK_74165
+                0x00001110        0xc main.o
+                0x00001110                CLK_74165
+ .progmem.data.Dont_care_74165
+                0x0000111c        0xc main.o
+                0x0000111c                Dont_care_74165
+ .progmem.data.logic_74165
+                0x00001128        0xc main.o
+                0x00001128                logic_74165
+ .progmem.data.IC_74164
+                0x00001134        0xe main.o
+                0x00001134                IC_74164
+ .progmem.data.CLK_74164
+                0x00001142       0x10 main.o
+                0x00001142                CLK_74164
+ .progmem.data.Dont_care_74164
+                0x00001152       0x10 main.o
+                0x00001152                Dont_care_74164
+ .progmem.data.logic_74164
+                0x00001162       0x10 main.o
+                0x00001162                logic_74164
+ .progmem.data.IC_74163
+                0x00001172        0xe main.o
+                0x00001172                IC_74163
+ .progmem.data.CLK_74163
+                0x00001180       0x22 main.o
+                0x00001180                CLK_74163
+ .progmem.data.Dont_care_74163
+                0x000011a2       0x22 main.o
+                0x000011a2                Dont_care_74163
+ .progmem.data.logic_74163
+                0x000011c4       0x22 main.o
+                0x000011c4                logic_74163
+ .progmem.data.IC_74162
+                0x000011e6        0xe main.o
+                0x000011e6                IC_74162
+ .progmem.data.CLK_74162
+                0x000011f4       0x24 main.o
+                0x000011f4                CLK_74162
+ .progmem.data.Dont_care_74162
+                0x00001218       0x24 main.o
+                0x00001218                Dont_care_74162
+ .progmem.data.logic_74162
+                0x0000123c       0x24 main.o
+                0x0000123c                logic_74162
+ .progmem.data.IC_74161
+                0x00001260        0xe main.o
+                0x00001260                IC_74161
+ .progmem.data.CLK_74161
+                0x0000126e       0x20 main.o
+                0x0000126e                CLK_74161
+ .progmem.data.Dont_care_74161
+                0x0000128e       0x20 main.o
+                0x0000128e                Dont_care_74161
+ .progmem.data.logic_74161
+                0x000012ae       0x20 main.o
+                0x000012ae                logic_74161
+ .progmem.data.IC_74160
+                0x000012ce        0xe main.o
+                0x000012ce                IC_74160
+ .progmem.data.CLK_74160
+                0x000012dc       0x1c main.o
+                0x000012dc                CLK_74160
+ .progmem.data.Dont_care_74160
+                0x000012f8       0x1c main.o
+                0x000012f8                Dont_care_74160
+ .progmem.data.logic_74160
+                0x00001314       0x1c main.o
+                0x00001314                logic_74160
+ .progmem.data.IC_7416
+                0x00001330        0xe main.o
+                0x00001330                IC_7416
+ .progmem.data.CLK_7416
+                0x0000133e        0x4 main.o
+                0x0000133e                CLK_7416
+ .progmem.data.Dont_care_7416
+                0x00001342        0x4 main.o
+                0x00001342                Dont_care_7416
+ .progmem.data.logic_7416
+                0x00001346        0x4 main.o
+                0x00001346                logic_7416
+ .progmem.data.IC_74158
+                0x0000134a        0xe main.o
+                0x0000134a                IC_74158
+ .progmem.data.CLK_74158
+                0x00001358       0x14 main.o
+                0x00001358                CLK_74158
+ .progmem.data.Dont_care_74158
+                0x0000136c       0x14 main.o
+                0x0000136c                Dont_care_74158
+ .progmem.data.logic_74158
+                0x00001380       0x14 main.o
+                0x00001380                logic_74158
+ .progmem.data.IC_74157
+                0x00001394        0xe main.o
+                0x00001394                IC_74157
+ .progmem.data.CLK_74157
+                0x000013a2       0x14 main.o
+                0x000013a2                CLK_74157
+ .progmem.data.Dont_care_74157
+                0x000013b6       0x14 main.o
+                0x000013b6                Dont_care_74157
+ .progmem.data.logic_74157
+                0x000013ca       0x14 main.o
+                0x000013ca                logic_74157
+ .progmem.data.IC_74153
+                0x000013de        0xe main.o
+                0x000013de                IC_74153
+ .progmem.data.CLK_74153
+                0x000013ec       0x24 main.o
+                0x000013ec                CLK_74153
+ .progmem.data.Dont_care_74153
+                0x00001410       0x24 main.o
+                0x00001410                Dont_care_74153
+ .progmem.data.logic_74153
+                0x00001434       0x24 main.o
+                0x00001434                logic_74153
+ .progmem.data.IC_74151
+                0x00001458        0xe main.o
+                0x00001458                IC_74151
+ .progmem.data.CLK_74151
+                0x00001466       0x24 main.o
+                0x00001466                CLK_74151
+ .progmem.data.Dont_care_74151
+                0x0000148a       0x24 main.o
+                0x0000148a                Dont_care_74151
+ .progmem.data.logic_74151
+                0x000014ae       0x24 main.o
+                0x000014ae                logic_74151
+ .progmem.data.IC_7415
+                0x000014d2        0xe main.o
+                0x000014d2                IC_7415
+ .progmem.data.CLK_7415
+                0x000014e0       0x10 main.o
+                0x000014e0                CLK_7415
+ .progmem.data.Dont_care_7415
+                0x000014f0       0x10 main.o
+                0x000014f0                Dont_care_7415
+ .progmem.data.logic_7415
+                0x00001500       0x10 main.o
+                0x00001500                logic_7415
+ .progmem.data.IC_74148
+                0x00001510        0xe main.o
+                0x00001510                IC_74148
+ .progmem.data.CLK_74148
+                0x0000151e       0x14 main.o
+                0x0000151e                CLK_74148
+ .progmem.data.Dont_care_74148
+                0x00001532       0x14 main.o
+                0x00001532                Dont_care_74148
+ .progmem.data.logic_74148
+                0x00001546       0x14 main.o
+                0x00001546                logic_74148
+ .progmem.data.IC_74147
+                0x0000155a        0xe main.o
+                0x0000155a                IC_74147
+ .progmem.data.CLK_74147
+                0x00001568       0x14 main.o
+                0x00001568                CLK_74147
+ .progmem.data.Dont_care_74147
+                0x0000157c       0x14 main.o
+                0x0000157c                Dont_care_74147
+ .progmem.data.logic_74147
+                0x00001590       0x14 main.o
+                0x00001590                logic_74147
+ .progmem.data.IC_74145
+                0x000015a4        0xe main.o
+                0x000015a4                IC_74145
+ .progmem.data.CLK_74145
+                0x000015b2       0x20 main.o
+                0x000015b2                CLK_74145
+ .progmem.data.Dont_care_74145
+                0x000015d2       0x20 main.o
+                0x000015d2                Dont_care_74145
+ .progmem.data.logic_74145
+                0x000015f2       0x20 main.o
+                0x000015f2                logic_74145
+ .progmem.data.IC_74140
+                0x00001612        0xe main.o
+                0x00001612                IC_74140
+ .progmem.data.CLK_74140
+                0x00001620       0x12 main.o
+                0x00001620                CLK_74140
+ .progmem.data.Dont_care_74140
+                0x00001632       0x12 main.o
+                0x00001632                Dont_care_74140
+ .progmem.data.logic_74140
+                0x00001644       0x12 main.o
+                0x00001644                logic_74140
+ .progmem.data.IC_7414
+                0x00001656        0xe main.o
+                0x00001656                IC_7414
+ .progmem.data.CLK_7414
+                0x00001664        0x4 main.o
+                0x00001664                CLK_7414
+ .progmem.data.Dont_care_7414
+                0x00001668        0x4 main.o
+                0x00001668                Dont_care_7414
+ .progmem.data.logic_7414
+                0x0000166c        0x4 main.o
+                0x0000166c                logic_7414
+ .progmem.data.IC_74139
+                0x00001670        0xe main.o
+                0x00001670                IC_74139
+ .progmem.data.CLK_74139
+                0x0000167e        0xc main.o
+                0x0000167e                CLK_74139
+ .progmem.data.Dont_care_74139
+                0x0000168a        0xc main.o
+                0x0000168a                Dont_care_74139
+ .progmem.data.logic_74139
+                0x00001696        0xc main.o
+                0x00001696                logic_74139
+ .progmem.data.IC_74138
+                0x000016a2        0xe main.o
+                0x000016a2                IC_74138
+ .progmem.data.CLK_74138
+                0x000016b0       0x18 main.o
+                0x000016b0                CLK_74138
+ .progmem.data.Dont_care_74138
+                0x000016c8       0x18 main.o
+                0x000016c8                Dont_care_74138
+ .progmem.data.logic_74138
+                0x000016e0       0x18 main.o
+                0x000016e0                logic_74138
+ .progmem.data.IC_74137
+                0x000016f8        0xe main.o
+                0x000016f8                IC_74137
+ .progmem.data.CLK_74137
+                0x00001706       0x18 main.o
+                0x00001706                CLK_74137
+ .progmem.data.Dont_care_74137
+                0x0000171e       0x18 main.o
+                0x0000171e                Dont_care_74137
+ .progmem.data.logic_74137
+                0x00001736       0x18 main.o
+                0x00001736                logic_74137
+ .progmem.data.IC_74136
+                0x0000174e        0xe main.o
+                0x0000174e                IC_74136
+ .progmem.data.CLK_74136
+                0x0000175c        0x8 main.o
+                0x0000175c                CLK_74136
+ .progmem.data.Dont_care_74136
+                0x00001764        0x8 main.o
+                0x00001764                Dont_care_74136
+ .progmem.data.logic_74136
+                0x0000176c        0x8 main.o
+                0x0000176c                logic_74136
+ .progmem.data.IC_74133
+                0x00001774        0xe main.o
+                0x00001774                IC_74133
+ .progmem.data.CLK_74133
+                0x00001782       0x1c main.o
+                0x00001782                CLK_74133
+ .progmem.data.Dont_care_74133
+                0x0000179e       0x1c main.o
+                0x0000179e                Dont_care_74133
+ .progmem.data.logic_74133
+                0x000017ba       0x1c main.o
+                0x000017ba                logic_74133
+ .progmem.data.IC_74132
+                0x000017d6        0xe main.o
+                0x000017d6                IC_74132
+ .progmem.data.CLK_74132
+                0x000017e4        0x8 main.o
+                0x000017e4                CLK_74132
+ .progmem.data.Dont_care_74132
+                0x000017ec        0x8 main.o
+                0x000017ec                Dont_care_74132
+ .progmem.data.logic_74132
+                0x000017f4        0x8 main.o
+                0x000017f4                logic_74132
+ .progmem.data.IC_7413
+                0x000017fc        0xe main.o
+                0x000017fc                IC_7413
+ .progmem.data.CLK_7413
+                0x0000180a       0x12 main.o
+                0x0000180a                CLK_7413
+ .progmem.data.Dont_care_7413
+                0x0000181c       0x12 main.o
+                0x0000181c                Dont_care_7413
+ .progmem.data.logic_7413
+                0x0000182e       0x12 main.o
+                0x0000182e                logic_7413
+ .progmem.data.IC_74126
+                0x00001840        0xe main.o
+                0x00001840                IC_74126
+ .progmem.data.CLK_74126
+                0x0000184e        0x8 main.o
+                0x0000184e                CLK_74126
+ .progmem.data.Dont_care_74126
+                0x00001856        0x8 main.o
+                0x00001856                Dont_care_74126
+ .progmem.data.logic_74126
+                0x0000185e        0x8 main.o
+                0x0000185e                logic_74126
+ .progmem.data.IC_74125
+                0x00001866        0xe main.o
+                0x00001866                IC_74125
+ .progmem.data.CLK_74125
+                0x00001874       0x10 main.o
+                0x00001874                CLK_74125
+ .progmem.data.Dont_care_74125
+                0x00001884       0x10 main.o
+                0x00001884                Dont_care_74125
+ .progmem.data.logic_74125
+                0x00001894       0x10 main.o
+                0x00001894                logic_74125
+ .progmem.data.IC_74123
+                0x000018a4        0xe main.o
+                0x000018a4                IC_74123
+ .progmem.data.CLK_74123
+                0x000018b2        0xc main.o
+                0x000018b2                CLK_74123
+ .progmem.data.Dont_care_74123
+                0x000018be        0xc main.o
+                0x000018be                Dont_care_74123
+ .progmem.data.logic_74123
+                0x000018ca        0xc main.o
+                0x000018ca                logic_74123
+ .progmem.data.IC_7412
+                0x000018d6        0xe main.o
+                0x000018d6                IC_7412
+ .progmem.data.CLK_7412
+                0x000018e4       0x10 main.o
+                0x000018e4                CLK_7412
+ .progmem.data.Dont_care_7412
+                0x000018f4       0x10 main.o
+                0x000018f4                Dont_care_7412
+ .progmem.data.logic_7412
+                0x00001904       0x10 main.o
+                0x00001904                logic_7412
+ .progmem.data.IC_74113
+                0x00001914        0xe main.o
+                0x00001914                IC_74113
+ .progmem.data.CLK_74113
+                0x00001922        0xc main.o
+                0x00001922                CLK_74113
+ .progmem.data.Dont_care_74113
+                0x0000192e        0xc main.o
+                0x0000192e                Dont_care_74113
+ .progmem.data.logic_74113
+                0x0000193a        0xc main.o
+                0x0000193a                logic_74113
+ .progmem.data.IC_74112
+                0x00001946        0xe main.o
+                0x00001946                IC_74112
+ .progmem.data.CLK_74112
+                0x00001954       0x10 main.o
+                0x00001954                CLK_74112
+ .progmem.data.Dont_care_74112
+                0x00001964       0x10 main.o
+                0x00001964                Dont_care_74112
+ .progmem.data.logic_74112
+                0x00001974       0x10 main.o
+                0x00001974                logic_74112
+ .progmem.data.IC_7411
+                0x00001984        0xe main.o
+                0x00001984                IC_7411
+ .progmem.data.CLK_7411
+                0x00001992       0x10 main.o
+                0x00001992                CLK_7411
+ .progmem.data.Dont_care_7411
+                0x000019a2       0x10 main.o
+                0x000019a2                Dont_care_7411
+ .progmem.data.logic_7411
+                0x000019b2       0x10 main.o
+                0x000019b2                logic_7411
+ .progmem.data.IC_74109
+                0x000019c2        0xe main.o
+                0x000019c2                IC_74109
+ .progmem.data.CLK_74109
+                0x000019d0       0x10 main.o
+                0x000019d0                CLK_74109
+ .progmem.data.Dont_care_74109
+                0x000019e0       0x10 main.o
+                0x000019e0                Dont_care_74109
+ .progmem.data.logic_74109
+                0x000019f0       0x10 main.o
+                0x000019f0                logic_74109
+ .progmem.data.IC_74107
+                0x00001a00        0xe main.o
+                0x00001a00                IC_74107
+ .progmem.data.CLK_74107
+                0x00001a0e        0xc main.o
+                0x00001a0e                CLK_74107
+ .progmem.data.Dont_care_74107
+                0x00001a1a        0xc main.o
+                0x00001a1a                Dont_care_74107
+ .progmem.data.logic_74107
+                0x00001a26        0xc main.o
+                0x00001a26                logic_74107
+ .progmem.data.IC_7410
+                0x00001a32        0xe main.o
+                0x00001a32                IC_7410
+ .progmem.data.CLK_7410
+                0x00001a40       0x10 main.o
+                0x00001a40                CLK_7410
+ .progmem.data.Dont_care_7410
+                0x00001a50       0x10 main.o
+                0x00001a50                Dont_care_7410
+ .progmem.data.logic_7410
+                0x00001a60       0x10 main.o
+                0x00001a60                logic_7410
+ .progmem.data.IC_7409
+                0x00001a70        0xe main.o
+                0x00001a70                IC_7409
+ .progmem.data.CLK_7409
+                0x00001a7e        0x8 main.o
+                0x00001a7e                CLK_7409
+ .progmem.data.Dont_care_7409
+                0x00001a86        0x8 main.o
+                0x00001a86                Dont_care_7409
+ .progmem.data.logic_7409
+                0x00001a8e        0x8 main.o
+                0x00001a8e                logic_7409
+ .progmem.data.IC_7408
+                0x00001a96        0xe main.o
+                0x00001a96                IC_7408
+ .progmem.data.CLK_7408
+                0x00001aa4        0x8 main.o
+                0x00001aa4                CLK_7408
+ .progmem.data.Dont_care_7408
+                0x00001aac        0x8 main.o
+                0x00001aac                Dont_care_7408
+ .progmem.data.logic_7408
+                0x00001ab4        0x8 main.o
+                0x00001ab4                logic_7408
+ .progmem.data.IC_7407
+                0x00001abc        0xe main.o
+                0x00001abc                IC_7407
+ .progmem.data.CLK_7407
+                0x00001aca        0x4 main.o
+                0x00001aca                CLK_7407
+ .progmem.data.Dont_care_7407
+                0x00001ace        0x4 main.o
+                0x00001ace                Dont_care_7407
+ .progmem.data.logic_7407
+                0x00001ad2        0x4 main.o
+                0x00001ad2                logic_7407
+ .progmem.data.IC_7406
+                0x00001ad6        0xe main.o
+                0x00001ad6                IC_7406
+ .progmem.data.CLK_7406
+                0x00001ae4        0x4 main.o
+                0x00001ae4                CLK_7406
+ .progmem.data.Dont_care_7406
+                0x00001ae8        0x4 main.o
+                0x00001ae8                Dont_care_7406
+ .progmem.data.logic_7406
+                0x00001aec        0x4 main.o
+                0x00001aec                logic_7406
+ .progmem.data.IC_7405
+                0x00001af0        0xe main.o
+                0x00001af0                IC_7405
+ .progmem.data.CLK_7405
+                0x00001afe        0x4 main.o
+                0x00001afe                CLK_7405
+ .progmem.data.Dont_care_7405
+                0x00001b02        0x4 main.o
+                0x00001b02                Dont_care_7405
+ .progmem.data.logic_7405
+                0x00001b06        0x4 main.o
+                0x00001b06                logic_7405
+ .progmem.data.IC_7404
+                0x00001b0a        0xe main.o
+                0x00001b0a                IC_7404
+ .progmem.data.CLK_7404
+                0x00001b18        0x4 main.o
+                0x00001b18                CLK_7404
+ .progmem.data.Dont_care_7404
+                0x00001b1c        0x4 main.o
+                0x00001b1c                Dont_care_7404
+ .progmem.data.logic_7404
+                0x00001b20        0x4 main.o
+                0x00001b20                logic_7404
+ .progmem.data.IC_7403
+                0x00001b24        0xe main.o
+                0x00001b24                IC_7403
+ .progmem.data.CLK_7403
+                0x00001b32        0x8 main.o
+                0x00001b32                CLK_7403
+ .progmem.data.Dont_care_7403
+                0x00001b3a        0x8 main.o
+                0x00001b3a                Dont_care_7403
+ .progmem.data.logic_7403
+                0x00001b42        0x8 main.o
+                0x00001b42                logic_7403
+ .progmem.data.IC_7402
+                0x00001b4a        0xe main.o
+                0x00001b4a                IC_7402
+ .progmem.data.CLK_7402
+                0x00001b58        0x8 main.o
+                0x00001b58                CLK_7402
+ .progmem.data.Dont_care_7402
+                0x00001b60        0x8 main.o
+                0x00001b60                Dont_care_7402
+ .progmem.data.logic_7402
+                0x00001b68        0x8 main.o
+                0x00001b68                logic_7402
+ .progmem.data.IC_7401
+                0x00001b70        0xe main.o
+                0x00001b70                IC_7401
+ .progmem.data.CLK_7401
+                0x00001b7e        0x8 main.o
+                0x00001b7e                CLK_7401
+ .progmem.data.Dont_care_7401
+                0x00001b86        0x8 main.o
+                0x00001b86                Dont_care_7401
+ .progmem.data.logic_7401
+                0x00001b8e        0x8 main.o
+                0x00001b8e                logic_7401
+ .progmem.data.IC_7400
+                0x00001b96        0xe main.o
+                0x00001b96                IC_7400
+ .progmem.data.CLK_7400
+                0x00001ba4        0x8 main.o
+                0x00001ba4                CLK_7400
+ .progmem.data.Dont_care_7400
+                0x00001bac        0x8 main.o
+                0x00001bac                Dont_care_7400
+ .progmem.data.logic_7400
+                0x00001bb4        0x8 main.o
+                0x00001bb4                logic_7400
+ .progmem.data.IC_4572
+                0x00001bbc        0xe main.o
+                0x00001bbc                IC_4572
+ .progmem.data.CLK_4572
+                0x00001bca        0x8 main.o
+                0x00001bca                CLK_4572
+ .progmem.data.Dont_care_4572
+                0x00001bd2        0x8 main.o
+                0x00001bd2                Dont_care_4572
+ .progmem.data.logic_4572
+                0x00001bda        0x8 main.o
+                0x00001bda                logic_4572
+ .progmem.data.IC_4543
+                0x00001be2        0xe main.o
+                0x00001be2                IC_4543
+ .progmem.data.CLK_4543
+                0x00001bf0        0x8 main.o
+                0x00001bf0                CLK_4543
+ .progmem.data.Dont_care_4543
+                0x00001bf8        0x8 main.o
+                0x00001bf8                Dont_care_4543
+ .progmem.data.logic_4543
+                0x00001c00        0x8 main.o
+                0x00001c00                logic_4543
+ .progmem.data.IC_4532
+                0x00001c08        0xe main.o
+                0x00001c08                IC_4532
+ .progmem.data.CLK_4532
+                0x00001c16       0x14 main.o
+                0x00001c16                CLK_4532
+ .progmem.data.Dont_care_4532
+                0x00001c2a       0x14 main.o
+                0x00001c2a                Dont_care_4532
+ .progmem.data.logic_4532
+                0x00001c3e       0x14 main.o
+                0x00001c3e                logic_4532
+ .progmem.data.IC_4529
+                0x00001c52        0xe main.o
+                0x00001c52                IC_4529
+ .progmem.data.CLK_4529
+                0x00001c60        0x8 main.o
+                0x00001c60                CLK_4529
+ .progmem.data.Dont_care_4529
+                0x00001c68        0x8 main.o
+                0x00001c68                Dont_care_4529
+ .progmem.data.logic_4529
+                0x00001c70        0x8 main.o
+                0x00001c70                logic_4529
+ .progmem.data.IC_4520
+                0x00001c78        0xe main.o
+                0x00001c78                IC_4520
+ .progmem.data.CLK_4520
+                0x00001c86       0x16 main.o
+                0x00001c86                CLK_4520
+ .progmem.data.Dont_care_4520
+                0x00001c9c       0x16 main.o
+                0x00001c9c                Dont_care_4520
+ .progmem.data.logic_4520
+                0x00001cb2       0x16 main.o
+                0x00001cb2                logic_4520
+ .progmem.data.IC_4519
+                0x00001cc8        0xe main.o
+                0x00001cc8                IC_4519
+ .progmem.data.CLK_4519
+                0x00001cd6        0xc main.o
+                0x00001cd6                CLK_4519
+ .progmem.data.Dont_care_4519
+                0x00001ce2        0xc main.o
+                0x00001ce2                Dont_care_4519
+ .progmem.data.logic_4519
+                0x00001cee        0xc main.o
+                0x00001cee                logic_4519
+ .progmem.data.IC_4518
+                0x00001cfa        0xe main.o
+                0x00001cfa                IC_4518
+ .progmem.data.CLK_4518
+                0x00001d08        0xe main.o
+                0x00001d08                CLK_4518
+ .progmem.data.Dont_care_4518
+                0x00001d16        0xe main.o
+                0x00001d16                Dont_care_4518
+ .progmem.data.logic_4518
+                0x00001d24        0xe main.o
+                0x00001d24                logic_4518
+ .progmem.data.IC_4512
+                0x00001d32        0xe main.o
+                0x00001d32                IC_4512
+ .progmem.data.CLK_4512
+                0x00001d40       0x24 main.o
+                0x00001d40                CLK_4512
+ .progmem.data.Dont_care_4512
+                0x00001d64       0x24 main.o
+                0x00001d64                Dont_care_4512
+ .progmem.data.logic_4512
+                0x00001d88       0x24 main.o
+                0x00001d88                logic_4512
+ .progmem.data.IC_4511
+                0x00001dac        0xe main.o
+                0x00001dac                IC_4511
+ .progmem.data.CLK_4511
+                0x00001dba        0xa main.o
+                0x00001dba                CLK_4511
+ .progmem.data.Dont_care_4511
+                0x00001dc4        0xa main.o
+                0x00001dc4                Dont_care_4511
+ .progmem.data.logic_4511
+                0x00001dce        0xa main.o
+                0x00001dce                logic_4511
+ .progmem.data.IC_4510
+                0x00001dd8        0xe main.o
+                0x00001dd8                IC_4510
+ .progmem.data.CLK_4510
+                0x00001de6        0xa main.o
+                0x00001de6                CLK_4510
+ .progmem.data.Dont_care_4510
+                0x00001df0        0xa main.o
+                0x00001df0                Dont_care_4510
+ .progmem.data.logic_4510
+                0x00001dfa        0xa main.o
+                0x00001dfa                logic_4510
+ .progmem.data.IC_4503
+                0x00001e04        0xe main.o
+                0x00001e04                IC_4503
+ .progmem.data.CLK_4503
+                0x00001e12        0x8 main.o
+                0x00001e12                CLK_4503
+ .progmem.data.Dont_care_4503
+                0x00001e1a        0x8 main.o
+                0x00001e1a                Dont_care_4503
+ .progmem.data.logic_4503
+                0x00001e22        0x8 main.o
+                0x00001e22                logic_4503
+ .progmem.data.IC_4098
+                0x00001e2a        0xe main.o
+                0x00001e2a                IC_4098
+ .progmem.data.CLK_4098
+                0x00001e38       0x16 main.o
+                0x00001e38                CLK_4098
+ .progmem.data.Dont_care_4098
+                0x00001e4e       0x16 main.o
+                0x00001e4e                Dont_care_4098
+ .progmem.data.logic_4098
+                0x00001e64       0x16 main.o
+                0x00001e64                logic_4098
+ .progmem.data.IC_4094
+                0x00001e7a        0xe main.o
+                0x00001e7a                IC_4094
+ .progmem.data.CLK_4094
+                0x00001e88       0x1c main.o
+                0x00001e88                CLK_4094
+ .progmem.data.Dont_care_4094
+                0x00001ea4       0x1c main.o
+                0x00001ea4                Dont_care_4094
+ .progmem.data.logic_4094
+                0x00001ec0       0x1c main.o
+                0x00001ec0                logic_4094
+ .progmem.data.IC_4093
+                0x00001edc        0xe main.o
+                0x00001edc                IC_4093
+ .progmem.data.CLK_4093
+                0x00001eea        0x8 main.o
+                0x00001eea                CLK_4093
+ .progmem.data.Dont_care_4093
+                0x00001ef2        0x8 main.o
+                0x00001ef2                Dont_care_4093
+ .progmem.data.logic_4093
+                0x00001efa        0x8 main.o
+                0x00001efa                logic_4093
+ .progmem.data.IC_4082
+                0x00001f02        0xe main.o
+                0x00001f02                IC_4082
+ .progmem.data.CLK_4082
+                0x00001f10       0x16 main.o
+                0x00001f10                CLK_4082
+ .progmem.data.Dont_care_4082
+                0x00001f26       0x16 main.o
+                0x00001f26                Dont_care_4082
+ .progmem.data.logic_4082
+                0x00001f3c       0x16 main.o
+                0x00001f3c                logic_4082
+ .progmem.data.IC_4081
+                0x00001f52        0xe main.o
+                0x00001f52                IC_4081
+ .progmem.data.CLK_4081
+                0x00001f60        0x8 main.o
+                0x00001f60                CLK_4081
+ .progmem.data.Dont_care_4081
+                0x00001f68        0x8 main.o
+                0x00001f68                Dont_care_4081
+ .progmem.data.logic_4081
+                0x00001f70        0x8 main.o
+                0x00001f70                logic_4081
+ .progmem.data.IC_4078
+                0x00001f78        0xe main.o
+                0x00001f78                IC_4078
+ .progmem.data.CLK_4078
+                0x00001f86       0x14 main.o
+                0x00001f86                CLK_4078
+ .progmem.data.Dont_care_4078
+                0x00001f9a       0x14 main.o
+                0x00001f9a                Dont_care_4078
+ .progmem.data.logic_4078
+                0x00001fae       0x14 main.o
+                0x00001fae                logic_4078
+ .progmem.data.IC_4077
+                0x00001fc2        0xe main.o
+                0x00001fc2                IC_4077
+ .progmem.data.CLK_4077
+                0x00001fd0        0x8 main.o
+                0x00001fd0                CLK_4077
+ .progmem.data.Dont_care_4077
+                0x00001fd8        0x8 main.o
+                0x00001fd8                Dont_care_4077
+ .progmem.data.logic_4077
+                0x00001fe0        0x8 main.o
+                0x00001fe0                logic_4077
+ .progmem.data.IC_4076
+                0x00001fe8        0xe main.o
+                0x00001fe8                IC_4076
+ .progmem.data.CLK_4076
+                0x00001ff6        0x6 main.o
+                0x00001ff6                CLK_4076
+ .progmem.data.Dont_care_4076
+                0x00001ffc        0x6 main.o
+                0x00001ffc                Dont_care_4076
+ .progmem.data.logic_4076
+                0x00002002        0x6 main.o
+                0x00002002                logic_4076
+ .progmem.data.IC_4075
+                0x00002008        0xe main.o
+                0x00002008                IC_4075
+ .progmem.data.CLK_4075
+                0x00002016       0x10 main.o
+                0x00002016                CLK_4075
+ .progmem.data.Dont_care_4075
+                0x00002026       0x10 main.o
+                0x00002026                Dont_care_4075
+ .progmem.data.logic_4075
+                0x00002036       0x10 main.o
+                0x00002036                logic_4075
+ .progmem.data.IC_4073
+                0x00002046        0xe main.o
+                0x00002046                IC_4073
+ .progmem.data.CLK_4073
+                0x00002054       0x10 main.o
+                0x00002054                CLK_4073
+ .progmem.data.Dont_care_4073
+                0x00002064       0x10 main.o
+                0x00002064                Dont_care_4073
+ .progmem.data.logic_4073
+                0x00002074       0x10 main.o
+                0x00002074                logic_4073
+ .progmem.data.IC_4072
+                0x00002084        0xe main.o
+                0x00002084                IC_4072
+ .progmem.data.CLK_4072
+                0x00002092       0x16 main.o
+                0x00002092                CLK_4072
+ .progmem.data.Dont_care_4072
+                0x000020a8       0x16 main.o
+                0x000020a8                Dont_care_4072
+ .progmem.data.logic_4072
+                0x000020be       0x16 main.o
+                0x000020be                logic_4072
+ .progmem.data.IC_4071
+                0x000020d4        0xe main.o
+                0x000020d4                IC_4071
+ .progmem.data.CLK_4071
+                0x000020e2        0x8 main.o
+                0x000020e2                CLK_4071
+ .progmem.data.Dont_care_4071
+                0x000020ea        0x8 main.o
+                0x000020ea                Dont_care_4071
+ .progmem.data.logic_4071
+                0x000020f2        0x8 main.o
+                0x000020f2                logic_4071
+ .progmem.data.IC_4070
+                0x000020fa        0xe main.o
+                0x000020fa                IC_4070
+ .progmem.data.CLK_4070
+                0x00002108        0x8 main.o
+                0x00002108                CLK_4070
+ .progmem.data.Dont_care_4070
+                0x00002110        0x8 main.o
+                0x00002110                Dont_care_4070
+ .progmem.data.logic_4070
+                0x00002118        0x8 main.o
+                0x00002118                logic_4070
+ .progmem.data.IC_4069
+                0x00002120        0xe main.o
+                0x00002120                IC_4069
+ .progmem.data.CLK_4069
+                0x0000212e        0x4 main.o
+                0x0000212e                CLK_4069
+ .progmem.data.Dont_care_4069
+                0x00002132        0x4 main.o
+                0x00002132                Dont_care_4069
+ .progmem.data.logic_4069
+                0x00002136        0x4 main.o
+                0x00002136                logic_4069
+ .progmem.data.IC_4068
+                0x0000213a        0xe main.o
+                0x0000213a                IC_4068
+ .progmem.data.CLK_4068
+                0x00002148       0x14 main.o
+                0x00002148                CLK_4068
+ .progmem.data.Dont_care_4068
+                0x0000215c       0x14 main.o
+                0x0000215c                Dont_care_4068
+ .progmem.data.logic_4068
+                0x00002170       0x14 main.o
+                0x00002170                logic_4068
+ .progmem.data.IC_4066
+                0x00002184        0xe main.o
+                0x00002184                IC_4066
+ .progmem.data.CLK_4066
+                0x00002192        0x8 main.o
+                0x00002192                CLK_4066
+ .progmem.data.Dont_care_4066
+                0x0000219a        0x8 main.o
+                0x0000219a                Dont_care_4066
+ .progmem.data.logic_4066
+                0x000021a2        0x8 main.o
+                0x000021a2                logic_4066
+ .progmem.data.IC_4053
+                0x000021aa        0xe main.o
+                0x000021aa                IC_4053
+ .progmem.data.CLK_4053
+                0x000021b8        0xa main.o
+                0x000021b8                CLK_4053
+ .progmem.data.Dont_care_4053
+                0x000021c2        0xa main.o
+                0x000021c2                Dont_care_4053
+ .progmem.data.logic_4053
+                0x000021cc        0xa main.o
+                0x000021cc                logic_4053
+ .progmem.data.IC_4051
+                0x000021d6        0xe main.o
+                0x000021d6                IC_4051
+ .progmem.data.CLK_4051
+                0x000021e4       0x22 main.o
+                0x000021e4                CLK_4051
+ .progmem.data.Dont_care_4051
+                0x00002206       0x22 main.o
+                0x00002206                Dont_care_4051
+ .progmem.data.logic_4051
+                0x00002228       0x22 main.o
+                0x00002228                logic_4051
+ .progmem.data.IC_4049
+                0x0000224a        0xe main.o
+                0x0000224a                IC_4049
+ .progmem.data.CLK_4049
+                0x00002258        0x4 main.o
+                0x00002258                CLK_4049
+ .progmem.data.Dont_care_4049
+                0x0000225c        0x4 main.o
+                0x0000225c                Dont_care_4049
+ .progmem.data.logic_4049
+                0x00002260        0x4 main.o
+                0x00002260                logic_4049
+ .progmem.data.IC_4048
+                0x00002264        0xe main.o
+                0x00002264                IC_4048
+ .progmem.data.CLK_4048
+                0x00002272        0x8 main.o
+                0x00002272                CLK_4048
+ .progmem.data.Dont_care_4048
+                0x0000227a        0x8 main.o
+                0x0000227a                Dont_care_4048
+ .progmem.data.logic_4048
+                0x00002282        0x8 main.o
+                0x00002282                logic_4048
+ .progmem.data.IC_4044
+                0x0000228a        0xe main.o
+                0x0000228a                IC_4044
+ .progmem.data.CLK_4044
+                0x00002298        0x6 main.o
+                0x00002298                CLK_4044
+ .progmem.data.Dont_care_4044
+                0x0000229e        0x6 main.o
+                0x0000229e                Dont_care_4044
+ .progmem.data.logic_4044
+                0x000022a4        0x6 main.o
+                0x000022a4                logic_4044
+ .progmem.data.IC_4043
+                0x000022aa        0xe main.o
+                0x000022aa                IC_4043
+ .progmem.data.CLK_4043
+                0x000022b8        0x8 main.o
+                0x000022b8                CLK_4043
+ .progmem.data.Dont_care_4043
+                0x000022c0        0x8 main.o
+                0x000022c0                Dont_care_4043
+ .progmem.data.logic_4043
+                0x000022c8        0x8 main.o
+                0x000022c8                logic_4043
+ .progmem.data.IC_4042
+                0x000022d0        0xe main.o
+                0x000022d0                IC_4042
+ .progmem.data.CLK_4042
+                0x000022de        0x6 main.o
+                0x000022de                CLK_4042
+ .progmem.data.Dont_care_4042
+                0x000022e4        0x6 main.o
+                0x000022e4                Dont_care_4042
+ .progmem.data.logic_4042
+                0x000022ea        0x6 main.o
+                0x000022ea                logic_4042
+ .progmem.data.IC_4041
+                0x000022f0        0xe main.o
+                0x000022f0                IC_4041
+ .progmem.data.CLK_4041
+                0x000022fe        0x4 main.o
+                0x000022fe                CLK_4041
+ .progmem.data.Dont_care_4041
+                0x00002302        0x4 main.o
+                0x00002302                Dont_care_4041
+ .progmem.data.logic_4041
+                0x00002306        0x4 main.o
+                0x00002306                logic_4041
+ .progmem.data.IC_4040
+                0x0000230a        0xe main.o
+                0x0000230a                IC_4040
+ .progmem.data.CLK_4040
+                0x00002318       0x1e main.o
+                0x00002318                CLK_4040
+ .progmem.data.Dont_care_4040
+                0x00002336       0x1e main.o
+                0x00002336                Dont_care_4040
+ .progmem.data.logic_4040
+                0x00002354       0x1e main.o
+                0x00002354                logic_4040
+ .progmem.data.IC_4031
+                0x00002372        0xe main.o
+                0x00002372                IC_4031
+ .progmem.data.CLK_4031
+                0x00002380        0x8 main.o
+                0x00002380                CLK_4031
+ .progmem.data.Dont_care_4031
+                0x00002388        0x8 main.o
+                0x00002388                Dont_care_4031
+ .progmem.data.logic_4031
+                0x00002390        0x8 main.o
+                0x00002390                logic_4031
+ .progmem.data.IC_4030
+                0x00002398        0xe main.o
+                0x00002398                IC_4030
+ .progmem.data.CLK_4030
+                0x000023a6        0x8 main.o
+                0x000023a6                CLK_4030
+ .progmem.data.Dont_care_4030
+                0x000023ae        0x8 main.o
+                0x000023ae                Dont_care_4030
+ .progmem.data.logic_4030
+                0x000023b6        0x8 main.o
+                0x000023b6                logic_4030
+ .progmem.data.IC_4029
+                0x000023be        0xe main.o
+                0x000023be                IC_4029
+ .progmem.data.CLK_4029
+                0x000023cc       0x2c main.o
+                0x000023cc                CLK_4029
+ .progmem.data.Dont_care_4029
+                0x000023f8       0x2c main.o
+                0x000023f8                Dont_care_4029
+ .progmem.data.logic_4029
+                0x00002424       0x2c main.o
+                0x00002424                logic_4029
+ .progmem.data.IC_4028
+                0x00002450        0xe main.o
+                0x00002450                IC_4028
+ .progmem.data.CLK_4028
+                0x0000245e       0x14 main.o
+                0x0000245e                CLK_4028
+ .progmem.data.Dont_care_4028
+                0x00002472       0x14 main.o
+                0x00002472                Dont_care_4028
+ .progmem.data.logic_4028
+                0x00002486       0x14 main.o
+                0x00002486                logic_4028
+ .progmem.data.IC_4027
+                0x0000249a        0xe main.o
+                0x0000249a                IC_4027
+ .progmem.data.CLK_4027
+                0x000024a8       0x14 main.o
+                0x000024a8                CLK_4027
+ .progmem.data.Dont_care_4027
+                0x000024bc       0x14 main.o
+                0x000024bc                Dont_care_4027
+ .progmem.data.logic_4027
+                0x000024d0       0x14 main.o
+                0x000024d0                logic_4027
+ .progmem.data.IC_4025
+                0x000024e4        0xe main.o
+                0x000024e4                IC_4025
+ .progmem.data.CLK_4025
+                0x000024f2       0x10 main.o
+                0x000024f2                CLK_4025
+ .progmem.data.Dont_care_4025
+                0x00002502       0x10 main.o
+                0x00002502                Dont_care_4025
+ .progmem.data.logic_4025
+                0x00002512       0x10 main.o
+                0x00002512                logic_4025
+ .progmem.data.IC_4024
+                0x00002522        0xe main.o
+                0x00002522                IC_4024
+ .progmem.data.CLK_4024
+                0x00002530       0x1c main.o
+                0x00002530                CLK_4024
+ .progmem.data.Dont_care_4024
+                0x0000254c       0x1c main.o
+                0x0000254c                Dont_care_4024
+ .progmem.data.logic_4024
+                0x00002568       0x1c main.o
+                0x00002568                logic_4024
+ .progmem.data.IC_4023
+                0x00002584        0xe main.o
+                0x00002584                IC_4023
+ .progmem.data.CLK_4023
+                0x00002592       0x10 main.o
+                0x00002592                CLK_4023
+ .progmem.data.Dont_care_4023
+                0x000025a2       0x10 main.o
+                0x000025a2                Dont_care_4023
+ .progmem.data.logic_4023
+                0x000025b2       0x10 main.o
+                0x000025b2                logic_4023
+ .progmem.data.IC_4022
+                0x000025c2        0xe main.o
+                0x000025c2                IC_4022
+ .progmem.data.CLK_4022
+                0x000025d0       0x14 main.o
+                0x000025d0                CLK_4022
+ .progmem.data.Dont_care_4022
+                0x000025e4       0x14 main.o
+                0x000025e4                Dont_care_4022
+ .progmem.data.logic_4022
+                0x000025f8       0x14 main.o
+                0x000025f8                logic_4022
+ .progmem.data.IC_4020
+                0x0000260c        0xe main.o
+                0x0000260c                IC_4020
+ .progmem.data.CLK_4020
+                0x0000261a       0x24 main.o
+                0x0000261a                CLK_4020
+ .progmem.data.Dont_care_4020
+                0x0000263e       0x24 main.o
+                0x0000263e                Dont_care_4020
+ .progmem.data.logic_4020
+                0x00002662       0x24 main.o
+                0x00002662                logic_4020
+ .progmem.data.IC_40193
+                0x00002686        0xe main.o
+                0x00002686                IC_40193
+ .progmem.data.CLK_40193
+                0x00002694       0x1c main.o
+                0x00002694                CLK_40193
+ .progmem.data.Dont_care_40193
+                0x000026b0       0x1c main.o
+                0x000026b0                Dont_care_40193
+ .progmem.data.logic_40193
+                0x000026cc       0x1c main.o
+                0x000026cc                logic_40193
+ .progmem.data.IC_40192
+                0x000026e8        0xe main.o
+                0x000026e8                IC_40192
+ .progmem.data.CLK_40192
+                0x000026f6       0x1c main.o
+                0x000026f6                CLK_40192
+ .progmem.data.Dont_care_40192
+                0x00002712       0x1c main.o
+                0x00002712                Dont_care_40192
+ .progmem.data.logic_40192
+                0x0000272e       0x1c main.o
+                0x0000272e                logic_40192
+ .progmem.data.IC_4019
+                0x0000274a        0xe main.o
+                0x0000274a                IC_4019
+ .progmem.data.CLK_4019
+                0x00002758        0xc main.o
+                0x00002758                CLK_4019
+ .progmem.data.Dont_care_4019
+                0x00002764        0xc main.o
+                0x00002764                Dont_care_4019
+ .progmem.data.logic_4019
+                0x00002770        0xc main.o
+                0x00002770                logic_4019
+ .progmem.data.IC_4018
+                0x0000277c        0xe main.o
+                0x0000277c                IC_4018
+ .progmem.data.CLK_4018
+                0x0000278a       0x14 main.o
+                0x0000278a                CLK_4018
+ .progmem.data.Dont_care_4018
+                0x0000279e       0x14 main.o
+                0x0000279e                Dont_care_4018
+ .progmem.data.logic_4018
+                0x000027b2       0x14 main.o
+                0x000027b2                logic_4018
+ .progmem.data.IC_40175
+                0x000027c6        0xe main.o
+                0x000027c6                IC_40175
+ .progmem.data.CLK_40175
+                0x000027d4        0x8 main.o
+                0x000027d4                CLK_40175
+ .progmem.data.Dont_care_40175
+                0x000027dc        0x8 main.o
+                0x000027dc                Dont_care_40175
+ .progmem.data.logic_40175
+                0x000027e4        0x8 main.o
+                0x000027e4                logic_40175
+ .progmem.data.IC_40174
+                0x000027ec        0xe main.o
+                0x000027ec                IC_40174
+ .progmem.data.CLK_40174
+                0x000027fa        0x8 main.o
+                0x000027fa                CLK_40174
+ .progmem.data.Dont_care_40174
+                0x00002802        0x8 main.o
+                0x00002802                Dont_care_40174
+ .progmem.data.logic_40174
+                0x0000280a        0x8 main.o
+                0x0000280a                logic_40174
+ .progmem.data.IC_4017
+                0x00002812        0xe main.o
+                0x00002812                IC_4017
+ .progmem.data.CLK_4017
+                0x00002820       0x18 main.o
+                0x00002820                CLK_4017
+ .progmem.data.Dont_care_4017
+                0x00002838       0x18 main.o
+                0x00002838                Dont_care_4017
+ .progmem.data.logic_4017
+                0x00002850       0x18 main.o
+                0x00002850                logic_4017
+ .progmem.data.IC_40162
+                0x00002868        0xe main.o
+                0x00002868                IC_40162
+ .progmem.data.CLK_40162
+                0x00002876       0x1a main.o
+                0x00002876                CLK_40162
+ .progmem.data.Dont_care_40162
+                0x00002890       0x1a main.o
+                0x00002890                Dont_care_40162
+ .progmem.data.logic_40162
+                0x000028aa       0x1a main.o
+                0x000028aa                logic_40162
+ .progmem.data.IC_40161
+                0x000028c4        0xe main.o
+                0x000028c4                IC_40161
+ .progmem.data.CLK_40161
+                0x000028d2       0x18 main.o
+                0x000028d2                CLK_40161
+ .progmem.data.Dont_care_40161
+                0x000028ea       0x18 main.o
+                0x000028ea                Dont_care_40161
+ .progmem.data.logic_40161
+                0x00002902       0x18 main.o
+                0x00002902                logic_40161
+ .progmem.data.IC_4016
+                0x0000291a        0xe main.o
+                0x0000291a                IC_4016
+ .progmem.data.CLK_4016
+                0x00002928        0x8 main.o
+                0x00002928                CLK_4016
+ .progmem.data.Dont_care_4016
+                0x00002930        0x8 main.o
+                0x00002930                Dont_care_4016
+ .progmem.data.logic_4016
+                0x00002938        0x8 main.o
+                0x00002938                logic_4016
+ .progmem.data.IC_4015
+                0x00002940        0xe main.o
+                0x00002940                IC_4015
+ .progmem.data.CLK_4015
+                0x0000294e        0xa main.o
+                0x0000294e                CLK_4015
+ .progmem.data.Dont_care_4015
+                0x00002958        0xa main.o
+                0x00002958                Dont_care_4015
+ .progmem.data.logic_4015
+                0x00002962        0xa main.o
+                0x00002962                logic_4015
+ .progmem.data.IC_4013
+                0x0000296c        0xe main.o
+                0x0000296c                IC_4013
+ .progmem.data.CLK_4013
+                0x0000297a        0x8 main.o
+                0x0000297a                CLK_4013
+ .progmem.data.Dont_care_4013
+                0x00002982        0x8 main.o
+                0x00002982                Dont_care_4013
+ .progmem.data.logic_4013
+                0x0000298a        0x8 main.o
+                0x0000298a                logic_4013
+ .progmem.data.IC_4012
+                0x00002992        0xe main.o
+                0x00002992                IC_4012
+ .progmem.data.CLK_4012
+                0x000029a0        0x8 main.o
+                0x000029a0                CLK_4012
+ .progmem.data.Dont_care_4012
+                0x000029a8        0x8 main.o
+                0x000029a8                Dont_care_4012
+ .progmem.data.logic_4012
+                0x000029b0        0x8 main.o
+                0x000029b0                logic_4012
+ .progmem.data.IC_4011
+                0x000029b8        0xe main.o
+                0x000029b8                IC_4011
+ .progmem.data.CLK_4011
+                0x000029c6        0x8 main.o
+                0x000029c6                CLK_4011
+ .progmem.data.Dont_care_4011
+                0x000029ce        0x8 main.o
+                0x000029ce                Dont_care_4011
+ .progmem.data.logic_4011
+                0x000029d6        0x8 main.o
+                0x000029d6                logic_4011
+ .progmem.data.IC_40106
+                0x000029de        0xe main.o
+                0x000029de                IC_40106
+ .progmem.data.CLK_40106
+                0x000029ec        0x4 main.o
+                0x000029ec                CLK_40106
+ .progmem.data.Dont_care_40106
+                0x000029f0        0x4 main.o
+                0x000029f0                Dont_care_40106
+ .progmem.data.logic_40106
+                0x000029f4        0x4 main.o
+                0x000029f4                logic_40106
+ .progmem.data.IC_4010
+                0x000029f8        0xe main.o
+                0x000029f8                IC_4010
+ .progmem.data.CLK_4010
+                0x00002a06        0x4 main.o
+                0x00002a06                CLK_4010
+ .progmem.data.Dont_care_4010
+                0x00002a0a        0x4 main.o
+                0x00002a0a                Dont_care_4010
+ .progmem.data.logic_4010
+                0x00002a0e        0x4 main.o
+                0x00002a0e                logic_4010
+ .progmem.data.IC_4009
+                0x00002a12        0xe main.o
+                0x00002a12                IC_4009
+ .progmem.data.CLK_4009
+                0x00002a20        0x4 main.o
+                0x00002a20                CLK_4009
+ .progmem.data.Dont_care_4009
+                0x00002a24        0x4 main.o
+                0x00002a24                Dont_care_4009
+ .progmem.data.logic_4009
+                0x00002a28        0x4 main.o
+                0x00002a28                logic_4009
+ .progmem.data.IC_4002
+                0x00002a2c        0xe main.o
+                0x00002a2c                IC_4002
+ .progmem.data.CLK_4002
+                0x00002a3a       0x14 main.o
+                0x00002a3a                CLK_4002
+ .progmem.data.Dont_care_4002
+                0x00002a4e       0x14 main.o
+                0x00002a4e                Dont_care_4002
+ .progmem.data.logic_4002
+                0x00002a62       0x14 main.o
+                0x00002a62                logic_4002
+ .progmem.data.IC_4001
+                0x00002a76        0xe main.o
+                0x00002a76                IC_4001
+ .progmem.data.CLK_4001
+                0x00002a84        0x8 main.o
+                0x00002a84                CLK_4001
+ .progmem.data.Dont_care_4001
+                0x00002a8c        0x8 main.o
+                0x00002a8c                Dont_care_4001
+ .progmem.data.logic_4001
+                0x00002a94        0x8 main.o
+                0x00002a94                logic_4001
+ .progmem.data.IC_4000
+                0x00002a9c        0xe main.o
+                0x00002a9c                IC_4000
+ .progmem.data.CLK_4000
+                0x00002aaa       0x12 main.o
+                0x00002aaa                CLK_4000
+ .progmem.data.Dont_care_4000
+                0x00002abc       0x12 main.o
+                0x00002abc                Dont_care_4000
+ .progmem.data.logic_4000
+                0x00002ace       0x12 main.o
+                0x00002ace                logic_4000
+                0x00002ae0                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000054                __ctors_start = .
+                0x00002ae0                __ctors_start = .
  *(.ctors)
-                0x00000054                __ctors_end = .
-                0x00000054                __dtors_start = .
+                0x00002ae0                __ctors_end = .
+                0x00002ae0                __dtors_start = .
  *(.dtors)
-                0x00000054                __dtors_end = .
+                0x00002ae0                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000054        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
-                0x00000054                __init
+ .init0         0x00002ae0        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+                0x00002ae0                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000054        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .init2         0x00002ae0        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x00000060       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
-                0x00000060                __do_copy_data
+ .init4         0x00002aec       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x00002aec                __do_copy_data
+ .init4         0x00002b02       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x00002b02                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -830,40 +2435,113 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x00000076        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .init9         0x00002b12        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
  *(.init9)
  *(.text)
- .text          0x0000007e        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
-                0x0000007e                __vector_1
-                0x0000007e                __vector_12
-                0x0000007e                __bad_interrupt
-                0x0000007e                __vector_6
-                0x0000007e                __vector_3
-                0x0000007e                __vector_11
-                0x0000007e                __vector_13
-                0x0000007e                __vector_17
-                0x0000007e                __vector_19
-                0x0000007e                __vector_7
-                0x0000007e                __vector_5
-                0x0000007e                __vector_4
-                0x0000007e                __vector_9
-                0x0000007e                __vector_2
-                0x0000007e                __vector_15
-                0x0000007e                __vector_8
-                0x0000007e                __vector_14
-                0x0000007e                __vector_10
-                0x0000007e                __vector_16
-                0x0000007e                __vector_18
-                0x0000007e                __vector_20
-                0x00000082                . = ALIGN (0x2)
+ .text          0x00002b1a        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+                0x00002b1a                __vector_12
+                0x00002b1a                __bad_interrupt
+                0x00002b1a                __vector_6
+                0x00002b1a                __vector_11
+                0x00002b1a                __vector_13
+                0x00002b1a                __vector_17
+                0x00002b1a                __vector_19
+                0x00002b1a                __vector_7
+                0x00002b1a                __vector_5
+                0x00002b1a                __vector_4
+                0x00002b1a                __vector_9
+                0x00002b1a                __vector_15
+                0x00002b1a                __vector_8
+                0x00002b1a                __vector_14
+                0x00002b1a                __vector_10
+                0x00002b1a                __vector_16
+                0x00002b1a                __vector_18
+                0x00002b1a                __vector_20
+                0x00002b1e                . = ALIGN (0x2)
  *(.text.*)
- .text.main     0x00000082        0x2 main.o
-                0x00000082                main
-                0x00000084                . = ALIGN (0x2)
+ .text.begin_function
+                0x00002b1e       0x12 main.o
+                0x00002b1e                begin_function
+ .text.apply_Direction
+                0x00002b30        0x6 main.o
+                0x00002b30                apply_Direction
+ .text.apply_Logic
+                0x00002b36        0x6 main.o
+                0x00002b36                apply_Logic
+ .text.apply_clk
+                0x00002b3c       0x26 main.o
+                0x00002b3c                apply_clk
+ .text.read_Logic
+                0x00002b62       0x16 main.o
+                0x00002b62                read_Logic
+ .text.Test_IC  0x00002b78       0x8a main.o
+                0x00002b78                Test_IC
+ .text.USART_Init
+                0x00002c02       0x10 main.o
+                0x00002c02                USART_Init
+ .text.unsignedIntToStr
+                0x00002c12       0xa8 main.o
+                0x00002c12                unsignedIntToStr
+ .text.clear_logic_array
+                0x00002cba       0x26 main.o
+                0x00002cba                clear_logic_array
+ .text.clear_dont_care_array
+                0x00002ce0       0x26 main.o
+                0x00002ce0                clear_dont_care_array
+ .text.clear_clk_array
+                0x00002d06       0x26 main.o
+                0x00002d06                clear_clk_array
+ .text.LCD_Send_Command
+                0x00002d2c       0x5c main.o
+                0x00002d2c                LCD_Send_Command
+ .text.LCD_Clear
+                0x00002d88       0x14 main.o
+                0x00002d88                LCD_Clear
+ .text.LCD_Send_Data
+                0x00002d9c       0x5c main.o
+                0x00002d9c                LCD_Send_Data
+ .text.LCD_Send_String
+                0x00002df8       0x26 main.o
+                0x00002df8                LCD_Send_String
+ .text.LCD_SetCursor
+                0x00002e1e       0x14 main.o
+                0x00002e1e                LCD_SetCursor
+ .text.LCD_Init
+                0x00002e32       0x56 main.o
+                0x00002e32                LCD_Init
+ .text.Init     0x00002e88       0x12 main.o
+                0x00002e88                Init
+ .text.main     0x00002e9a       0xfc main.o
+                0x00002e9a                main
+ .text.EXT_INT0_Init
+                0x00002f96       0x1a MCAL/External_Interrupt.o
+ .text.EXT_INT1_Init
+                0x00002fb0       0x24 MCAL/External_Interrupt.o
+ .text.EXT_INT2_Init
+                0x00002fd4       0x20 MCAL/External_Interrupt.o
+ .text.EXT_INTx_Init
+                0x00002ff4       0x5a MCAL/External_Interrupt.o
+                0x00002ff4                EXT_INTx_Init
+ .text.__vector_1
+                0x0000304e       0x58 MCAL/External_Interrupt.o
+                0x0000304e                __vector_1
+ .text.__vector_2
+                0x000030a6       0x58 MCAL/External_Interrupt.o
+                0x000030a6                __vector_2
+ .text.__vector_3
+                0x000030fe       0x58 MCAL/External_Interrupt.o
+                0x000030fe                __vector_3
+ .text.libgcc.div
+                0x00003156       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00003156                __udivmodsi4
+ .text.avr-libc
+                0x0000319a       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                0x0000319a                memcpy_P
+                0x000031ac                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000084        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00000084                _exit
-                0x00000084                exit
+ .fini9         0x000031ac        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000031ac                _exit
+                0x000031ac                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -882,36 +2560,68 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000084        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000031ac        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000088                _etext = .
+                0x000031b0                _etext = .
 
-.data           0x00800060        0x0 load address 0x00000088
+.data           0x00800060      0x19c load address 0x000031b0
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
+ .data.begin_test
+                0x00800060        0x4 main.o
+                0x00800060                begin_test
+ .data.size_logic_array
+                0x00800064        0x2 main.o
+                0x00800064                size_logic_array
+ .data.Number_of_ICs
+                0x00800066        0x1 main.o
+                0x00800066                Number_of_ICs
+ .data.ICs      0x00800067      0x164 main.o
+                0x00800067                ICs
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
+ .rodata.str1.1
+                0x008001cb       0x30 main.o
+                                 0x36 (size before relaxing)
  *(.gnu.linkonce.r*)
-                0x00800060                . = ALIGN (0x2)
-                0x00800060                _edata = .
-                0x00800060                PROVIDE (__data_end, .)
+                0x008001fc                . = ALIGN (0x2)
+ *fill*         0x008001fb        0x1 
+                0x008001fc                _edata = .
+                0x008001fc                PROVIDE (__data_end, .)
 
-.bss            0x00800060        0x0
-                [!provide]                PROVIDE (__bss_start, .)
+.bss            0x008001fc       0xd8
+                0x008001fc                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
+ .bss.begin_flag
+                0x008001fc        0x1 main.o
+                0x008001fc                begin_flag
+ .bss.test_flag
+                0x008001fd        0x1 main.o
+                0x008001fd                test_flag
  *(COMMON)
-                [!provide]                PROVIDE (__bss_end, .)
-                0x00000088                __data_load_start = LOADADDR (.data)
-                0x00000088                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008001fe       0xd0 main.o
+                0x008001fe                temp
+                0x0080020c                logic_array
+                0x0080024a                clk
+                0x00800288                read_Logic_temp
+                0x0080028a                dont_care
+                0x008002c8                temp_Name
+ COMMON         0x008002ce        0x6 MCAL/External_Interrupt.o
+                0x008002ce                Interrupt0_callback
+                0x008002d0                Interrupt2_callback
+                0x008002d2                Interrupt1_callback
+                0x008002d4                PROVIDE (__bss_end, .)
+                0x000031b0                __data_load_start = LOADADDR (.data)
+                0x0000334c                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800060        0x0
+.noinit         0x008002d4        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800060                _end = .
+                0x008002d4                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -955,6 +2665,7 @@ END GROUP
  *(.comment)
  .comment       0x00000000       0x30 main.o
                                  0x31 (size before relaxing)
+ .comment       0x00000030       0x31 MCAL/External_Interrupt.o
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x3c
@@ -976,41 +2687,51 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x20
+.debug_aranges  0x00000000      0x110
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x20 main.o
+                0x00000000       0xc0 main.o
+ .debug_aranges
+                0x000000c0       0x50 MCAL/External_Interrupt.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x20fe
+.debug_info     0x00000000     0x53ea
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x4e6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
- .debug_info    0x000004e6     0x1c18 main.o
+ .debug_info    0x000004e6     0x4cb9 main.o
+ .debug_info    0x0000519f      0x24b MCAL/External_Interrupt.o
 
-.debug_abbrev   0x00000000      0x563
+.debug_abbrev   0x00000000      0x8e0
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x4a3 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
- .debug_abbrev  0x000004a3       0xc0 main.o
+ .debug_abbrev  0x000004a3      0x34b main.o
+ .debug_abbrev  0x000007ee       0xf2 MCAL/External_Interrupt.o
 
-.debug_line     0x00000000      0x15f
+.debug_line     0x00000000      0xa03
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x116 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
- .debug_line    0x00000116       0x49 main.o
+ .debug_line    0x00000116      0x6e8 main.o
+ .debug_line    0x000007fe      0x205 MCAL/External_Interrupt.o
 
-.debug_frame    0x00000000       0x24
+.debug_frame    0x00000000      0x330
  *(.debug_frame)
- .debug_frame   0x00000000       0x24 main.o
+ .debug_frame   0x00000000      0x1c8 main.o
+ .debug_frame   0x000001c8      0x168 MCAL/External_Interrupt.o
 
-.debug_str      0x00000000     0x10bc
+.debug_str      0x00000000     0x256d
  *(.debug_str)
  .debug_str     0x00000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
- .debug_str     0x00000196      0xf26 main.o
-                                0xf31 (size before relaxing)
+ .debug_str     0x00000196     0x232a main.o
+                               0x2398 (size before relaxing)
+ .debug_str     0x000024c0       0xad MCAL/External_Interrupt.o
+                                0x2b7 (size before relaxing)
 
-.debug_loc
+.debug_loc      0x00000000      0xb2e
  *(.debug_loc)
+ .debug_loc     0x00000000      0x7ec main.o
+ .debug_loc     0x000007ec      0x342 MCAL/External_Interrupt.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1030,9 +2751,10 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0x10
+.debug_ranges   0x00000000       0xf0
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x10 main.o
+ .debug_ranges  0x00000000       0xb0 main.o
+ .debug_ranges  0x000000b0       0x40 MCAL/External_Interrupt.o
 
 .debug_macro
  *(.debug_macro)
