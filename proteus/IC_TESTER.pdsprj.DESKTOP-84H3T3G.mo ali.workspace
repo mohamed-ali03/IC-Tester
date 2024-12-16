@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="0">
-  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffff0100000000000000e1040000ee030000</PLACEMENT>
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffff0100000000000000e1040000ee030000</PLACEMENT>
   <WINDOW type="default" module="ISIS"/>
  </FRAME>
  <MODULE name="VSMDEBUG">
@@ -15,11 +15,22 @@
      <ITEM name="Version">100</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="350" x="68" flags="00000032" y="180" h="200" pid="1" iid="-1">
+   <POPUP w="936" x="745" flags="00000032" y="307" h="564" pid="1" iid="-1">
     <PROPERTIES>
      <ITEM name="Address Column Width">82</ITEM>
      <ITEM name="AutoResize">No</ITEM>
      <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="Item 0">"DDRA","0x003A",00000001,0000000D,26,1,2,8F0B0000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 1">"DDRB","0x0037",00000001,0000000D,23,1,2,B8780000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 10">"temp","00800202",00000001,0000000E,514,14,-1,88500000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 2">"PORTA","0x003B",00000001,0000000D,27,1,2,F10B0000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 3">"PORTB","0x0038",00000001,0000000D,24,1,2,39EB0000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 4">"PINA","0x0039",00000001,0000000D,25,1,2,85520000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 5">"PINB","0x0036",00000001,0000000D,22,1,2,49320000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 6">"read_Logic_temp","0080028C",00000001,0000000E,652,2,2,00000003,0,00000000,00000000</ITEM>
+     <ITEM name="Item 7">"logic_array","00800210",00000001,0000000E,528,62,-1,BE930000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 8">"clk","0080024E",00000001,0000000E,590,62,-1,BE930000,0,00000000,00000000</ITEM>
+     <ITEM name="Item 9">"dont_care","0080028E",00000001,0000000E,654,62,-1,BE930000,0,00000000,00000000</ITEM>
      <ITEM name="Name Column Width">82</ITEM>
      <ITEM name="ShowAddresses">Yes</ITEM>
      <ITEM name="ShowPreviousValues">No</ITEM>
@@ -29,7 +40,7 @@
      <ITEM name="Value Column Width">82</ITEM>
      <ITEM name="Version">100</ITEM>
      <ITEM name="Watch Expression Column Width">82</ITEM>
-     <ITEM name="nItems">0</ITEM>
+     <ITEM name="nItems">11</ITEM>
     </PROPERTIES>
    </POPUP>
    <POPUP w="258" x="88" flags="00000008" y="200" h="255" pid="3" iid="1">
@@ -65,7 +76,7 @@
      <ITEM name="TopLineAddress">00000000</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="16" x="168" flags="80000000" y="280" h="32" pid="14" iid="1">
+   <POPUP w="16" x="168" flags="00000000" y="280" h="32" pid="14" iid="1">
     <PROPERTIES>
      <ITEM name="DataType">2</ITEM>
      <ITEM name="DispChars">Yes</ITEM>
@@ -95,8 +106,12 @@
      <ITEM name="TopLineAddress">00000020</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="600" x="228" flags="0000002b" y="340" h="400" pid="1" iid="1">
+   <POPUP w="680" x="106" flags="0000802b" y="245" h="521" pid="1" iid="1">
     <PROPERTIES>
+     <ITEM name="Breakpoint 0">"main",2F5C,006A,66C6,EDF8,1
+</ITEM>
+     <ITEM name="Breakpoint 1">"Test_IC",2C1A,0038,D302,EDF8,1
+</ITEM>
      <ITEM name="CaseSensitive">No</ITEM>
      <ITEM name="DISPADDRS">Yes</ITEM>
      <ITEM name="DISPLNUMS">No</ITEM>
@@ -106,12 +121,12 @@
      <ITEM name="nBreakpoints">0</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="300" x="248" flags="0000000b" y="360" h="300" pid="2" iid="1">
+   <POPUP w="611" x="1194" flags="0000000b" y="319" h="560" pid="2" iid="1">
     <PROPERTIES>
      <ITEM name="Address Column Width">93</ITEM>
      <ITEM name="AutoResize">No</ITEM>
      <ITEM name="Gridlines">Yes</ITEM>
-     <ITEM name="Name Column Width">93</ITEM>
+     <ITEM name="Name Column Width">160</ITEM>
      <ITEM name="ShowAddresses">Yes</ITEM>
      <ITEM name="ShowGlobals">Yes</ITEM>
      <ITEM name="ShowPreviousValues">No</ITEM>

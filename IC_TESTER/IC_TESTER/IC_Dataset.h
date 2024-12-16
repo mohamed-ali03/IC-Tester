@@ -23,6 +23,8 @@ typedef struct {
 }IC_INFO;
 
 
+
+
 const uint16_t logic_4000[] PROGMEM = {8864,8992,9488,10504,11544,12548,13588,14604,15644};
 const uint16_t Dont_care_4000[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4000[] PROGMEM = {0,0,0,0,0,0,0,0,0};
@@ -48,22 +50,22 @@ const uint16_t Dont_care_4010[] PROGMEM = {61439,61439};
 const uint16_t CLK_4010[] PROGMEM = {0,0};
 const IC_INFO IC_4010 PROGMEM = {.Name = 4010 ,.Direction = 42453 ,.logic = logic_4010,.dont_care = Dont_care_4010 ,.clk = CLK_4010,.sizeof_array_logic = 2};
 
-const uint16_t logic_40106[] PROGMEM = {43690,46357};
+const uint16_t logic_40106[] PROGMEM = {10922,13589};
 const uint16_t Dont_care_40106[] PROGMEM = {16383,16383};
 const uint16_t CLK_40106[] PROGMEM = {0,0};
 const IC_INFO IC_40106 PROGMEM = {.Name = 40106 ,.Direction = 13653 ,.logic = logic_40106,.dont_care = Dont_care_40106 ,.clk = CLK_40106,.sizeof_array_logic = 2};
 
-const uint16_t logic_4011[] PROGMEM = {42420,44701,46894,47627};
+const uint16_t logic_4011[] PROGMEM = {9652,11933,14126,14859};
 const uint16_t Dont_care_4011[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4011[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4011 PROGMEM = {.Name = 4011 ,.Direction = 14835 ,.logic = logic_4011,.dont_care = Dont_care_4011 ,.clk = CLK_4011,.sizeof_array_logic = 4};
 
-const uint16_t logic_4012[] PROGMEM = {45057,46347,47637,44830};
+const uint16_t logic_4012[] PROGMEM = {12289,13579,14869,12062};
 const uint16_t Dont_care_4012[] PROGMEM = {16223,16223,16223,16223};
 const uint16_t CLK_4012[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4012 PROGMEM = {.Name = 4012 ,.Direction = 12126 ,.logic = logic_4012,.dont_care = Dont_care_4012 ,.clk = CLK_4012,.sizeof_array_logic = 4};
 
-const uint16_t logic_4013[] PROGMEM = {43530,45217,43010,45329};
+const uint16_t logic_4013[] PROGMEM = {10762,12449,10242,12561};
 const uint16_t Dont_care_4013[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4013[] PROGMEM = {1028,1028,1028,1028};
 const IC_INFO IC_4013 PROGMEM = {.Name = 4013 ,.Direction = 10236 ,.logic = logic_4013,.dont_care = Dont_care_4013 ,.clk = CLK_4013,.sizeof_array_logic = 4};
@@ -73,7 +75,7 @@ const uint16_t Dont_care_4015[] PROGMEM = {65535,65535,65535,65535,65535};
 const uint16_t CLK_4015[] PROGMEM = {257,257,257,257,257};
 const IC_INFO IC_4015 PROGMEM = {.Name = 4015 ,.Direction = 57825 ,.logic = logic_4015,.dont_care = Dont_care_4015 ,.clk = CLK_4015,.sizeof_array_logic = 5};
 
-const uint16_t logic_4016[] PROGMEM = {41734,42895,47152,49087};
+const uint16_t logic_4016[] PROGMEM = {8966,10127,14384,16319};
 const uint16_t Dont_care_4016[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4016[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4016 PROGMEM = {.Name = 4016 ,.Direction = 15609 ,.logic = logic_4016,.dont_care = Dont_care_4016 ,.clk = CLK_4016,.sizeof_array_logic = 4};
@@ -113,7 +115,7 @@ const uint16_t Dont_care_4019[] PROGMEM = {65535,65535,65535,65535,65535,65535};
 const uint16_t CLK_4019[] PROGMEM = {0,0,0,0,0,0};
 const IC_INFO IC_4019 PROGMEM = {.Name = 4019 ,.Direction = 57855 ,.logic = logic_4019,.dont_care = Dont_care_4019 ,.clk = CLK_4019,.sizeof_array_logic = 6};
 
-const uint16_t logic_40192[] PROGMEM = {65049,55871,39982,40024,40008,40028,37964,39960,39944,39964,39956,39960,35856,39996};
+const uint16_t logic_40192[] PROGMEM = {65049,55871,39982,40024,40008,40028,37964,39960,39944,39964,39956,39960,35856,40028};
 const uint16_t Dont_care_40192[] PROGMEM = {65433,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535};
 const uint16_t CLK_40192[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_40192 PROGMEM = {.Name = 40192 ,.Direction = 59289 ,.logic = logic_40192,.dont_care = Dont_care_40192 ,.clk = CLK_40192,.sizeof_array_logic = 14};
@@ -133,17 +135,17 @@ const uint16_t Dont_care_4022[] PROGMEM = {65247,65247,65247,65247,65247,65247,6
 const uint16_t CLK_4022[] PROGMEM = {8192,8192,8192,8192,8192,8192,8192,8192,8192,8192};
 const IC_INFO IC_4022 PROGMEM = {.Name = 4022 ,.Direction = 61568 ,.logic = logic_4022,.dont_care = Dont_care_4022 ,.clk = CLK_4022,.sizeof_array_logic = 10};
 
-const uint16_t logic_4023[] PROGMEM = {41760,42916,43817,44973,45874,47030,47931,48287};
+const uint16_t logic_4023[] PROGMEM = {8992,10148,11049,12205,13106,14262,15163,15519};
 const uint16_t Dont_care_4023[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4023[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_4023 PROGMEM = {.Name = 4023 ,.Direction = 15583 ,.logic = logic_4023,.dont_care = Dont_care_4023 ,.clk = CLK_4023,.sizeof_array_logic = 8};
 
-const uint16_t logic_4024[] PROGMEM = {40962,43008,41984,44032,41216,43264,42240,44288,40992,43040,42016,44064,41248,40962};
+const uint16_t logic_4024[] PROGMEM = {8194,10240,9216,11264,8448,10496,9472,11520,8224,10272,9248,11296,8480,8194};
 const uint16_t Dont_care_4024[] PROGMEM = {8259,11647,11647,11647,11647,11647,11647,11647,11647,11647,11647,11647,11647,11647};
 const uint16_t CLK_4024[] PROGMEM = {1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 const IC_INFO IC_4024 PROGMEM = {.Name = 4024 ,.Direction = 8259 ,.logic = logic_4024,.dont_care = Dont_care_4024 ,.clk = CLK_4024,.sizeof_array_logic = 14};
 
-const uint16_t logic_4025[] PROGMEM = {41760,42116,43017,44173,45074,46230,47131,48287};
+const uint16_t logic_4025[] PROGMEM = {8992,9348,10249,11405,12306,13462,14363,15519};
 const uint16_t Dont_care_4025[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4025[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_4025 PROGMEM = {.Name = 4025 ,.Direction = 15583 ,.logic = logic_4025,.dont_care = Dont_care_4025 ,.clk = CLK_4025,.sizeof_array_logic = 8};
@@ -163,7 +165,7 @@ const uint16_t Dont_care_4029[] PROGMEM = {65535,65535,65535,65535,65535,65535,6
 const uint16_t CLK_4029[] PROGMEM = {16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16384,16385};
 const IC_INFO IC_4029 PROGMEM = {.Name = 4029 ,.Direction = 56221 ,.logic = logic_4029,.dont_care = Dont_care_4029 ,.clk = CLK_4029,.sizeof_array_logic = 22};
 
-const uint16_t logic_4030[] PROGMEM = {44701,46894,40960,47539};
+const uint16_t logic_4030[] PROGMEM = {11933,14126,8192,14771};
 const uint16_t Dont_care_4030[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4030[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4030 PROGMEM = {.Name = 4030 ,.Direction = 14835 ,.logic = logic_4030,.dont_care = Dont_care_4030 ,.clk = CLK_4030,.sizeof_array_logic = 4};
@@ -178,7 +180,7 @@ const uint16_t Dont_care_4040[] PROGMEM = {34432,65535,65535,65535,65535,65535,6
 const uint16_t CLK_4040[] PROGMEM = {512,512,512,512,512,512,512,512,512,512,512,512,512,512,512};
 const IC_INFO IC_4040 PROGMEM = {.Name = 4040 ,.Direction = 34432 ,.logic = logic_4040,.dont_care = Dont_care_4040 ,.clk = CLK_4040,.sizeof_array_logic = 15};
 
-const uint16_t logic_4041[] PROGMEM = {46765,43282};
+const uint16_t logic_4041[] PROGMEM = {13997,10514};
 const uint16_t Dont_care_4041[] PROGMEM = {16383,16383};
 const uint16_t CLK_4041[] PROGMEM = {0,0};
 const IC_INFO IC_4041 PROGMEM = {.Name = 4041 ,.Direction = 12900 ,.logic = logic_4041,.dont_care = Dont_care_4041 ,.clk = CLK_4041,.sizeof_array_logic = 2};
@@ -218,42 +220,42 @@ const uint16_t Dont_care_4053[] PROGMEM = {40951,65535,65535,65535,65535};
 const uint16_t CLK_4053[] PROGMEM = {0,0,0,0,0};
 const IC_INFO IC_4053 PROGMEM = {.Name = 4053 ,.Direction = 40951 ,.logic = logic_4053,.dont_care = Dont_care_4053 ,.clk = CLK_4053,.sizeof_array_logic = 5};
 
-const uint16_t logic_4066[] PROGMEM = {58118,59279,63536,65471};
+const uint16_t logic_4066[] PROGMEM = {8966,10127,14384,16319};
 const uint16_t Dont_care_4066[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4066[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4066 PROGMEM = {.Name = 4066 ,.Direction = 15609 ,.logic = logic_4066,.dont_care = Dont_care_4066 ,.clk = CLK_4066,.sizeof_array_logic = 4};
 
-const uint16_t logic_4068[] PROGMEM = {61214,62730,64020,64536,62214,65280,61440,63262,65302,65052};
+const uint16_t logic_4068[] PROGMEM = {12062,13578,14868,15384,13062,16128,12288,14110,16150,15900};
 const uint16_t Dont_care_4068[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4068[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_4068 PROGMEM = {.Name = 4068 ,.Direction = 12287 ,.logic = logic_4068,.dont_care = Dont_care_4068 ,.clk = CLK_4068,.sizeof_array_logic = 10};
 
-const uint16_t logic_4069[] PROGMEM = {60074,62741};
+const uint16_t logic_4069[] PROGMEM = {10922,13589};
 const uint16_t Dont_care_4069[] PROGMEM = {16383,16383};
 const uint16_t CLK_4069[] PROGMEM = {0,0};
 const IC_INFO IC_4069 PROGMEM = {.Name = 4069 ,.Direction = 13653 ,.logic = logic_4069,.dont_care = Dont_care_4069 ,.clk = CLK_4069,.sizeof_array_logic = 2};
 
-const uint16_t logic_4070[] PROGMEM = {57344,61085,63278,63923};
+const uint16_t logic_4070[] PROGMEM = {8192,11933,14126,14771};
 const uint16_t Dont_care_4070[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4070[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4070 PROGMEM = {.Name = 4070 ,.Direction = 14835 ,.logic = logic_4070,.dont_care = Dont_care_4070 ,.clk = CLK_4070,.sizeof_array_logic = 4};
 
-const uint16_t logic_4071[] PROGMEM = {58296,61085,63278,64519};
+const uint16_t logic_4071[] PROGMEM = {9144,11933,14126,15367};
 const uint16_t Dont_care_4071[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4071[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4071 PROGMEM = {.Name = 4071 ,.Direction = 14835 ,.logic = logic_4071,.dont_care = Dont_care_4071 ,.clk = CLK_4071,.sizeof_array_logic = 4};
 
-const uint16_t logic_4072[] PROGMEM = {57344,61699,61957,62215,62473,62731,62989,63247,63505,63763,65311};
+const uint16_t logic_4072[] PROGMEM = {8192,12547,12805,13063,13321,13579,13837,14095,14353,14611,16159};
 const uint16_t Dont_care_4072[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4072[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_4072 PROGMEM = {.Name = 4072 ,.Direction = 12286 ,.logic = logic_4072,.dont_care = Dont_care_4072 ,.clk = CLK_4072,.sizeof_array_logic = 11};
 
-const uint16_t logic_4073[] PROGMEM = {57344,58500,59401,60557,61459,62614,63507,65471};
+const uint16_t logic_4073[] PROGMEM = {8192,9348,10249,11405,12307,13462,14355,16319};
 const uint16_t Dont_care_4073[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4073[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_4073 PROGMEM = {.Name = 4073 ,.Direction = 15583 ,.logic = logic_4073,.dont_care = Dont_care_4073 ,.clk = CLK_4073,.sizeof_array_logic = 8};
 
-const uint16_t logic_4075[] PROGMEM = {57344,59308,60201,61357,62259,63414,64315,59327};
+const uint16_t logic_4075[] PROGMEM = {8192,10156,11049,12205,13107,14262,15163,10175};
 const uint16_t Dont_care_4075[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4075[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_4075 PROGMEM = {.Name = 4075 ,.Direction = 15583 ,.logic = logic_4075,.dont_care = Dont_care_4075 ,.clk = CLK_4075,.sizeof_array_logic = 8};
@@ -263,27 +265,27 @@ const uint16_t Dont_care_4076[] PROGMEM = {65535,65535,65535};
 const uint16_t CLK_4076[] PROGMEM = {64,64,64};
 const IC_INFO IC_4076 PROGMEM = {.Name = 4076 ,.Direction = 65475 ,.logic = logic_4076,.dont_care = Dont_care_4076 ,.clk = CLK_4076,.sizeof_array_logic = 3};
 
-const uint16_t logic_4077[] PROGMEM = {42508,43153,45346,49087};
+const uint16_t logic_4077[] PROGMEM = {9740,10385,12578,16319};
 const uint16_t Dont_care_4077[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4077[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4077 PROGMEM = {.Name = 4077 ,.Direction = 14835 ,.logic = logic_4077,.dont_care = Dont_care_4077 ,.clk = CLK_4077,.sizeof_array_logic = 4};
 
-const uint16_t logic_4078[] PROGMEM = {44831,42250,43540,44056,41734,44800,45056,42783,44822,44572};
+const uint16_t logic_4078[] PROGMEM = {12063,9482,10772,11288,8966,12032,12288,10015,12054,11804};
 const uint16_t Dont_care_4078[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4078[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_4078 PROGMEM = {.Name = 4078 ,.Direction = 12287 ,.logic = logic_4078,.dont_care = Dont_care_4078 ,.clk = CLK_4078,.sizeof_array_logic = 10};
 
-const uint16_t logic_4081[] PROGMEM = {41912,43153,45346,48135};
+const uint16_t logic_4081[] PROGMEM = {9144,10385,12578,15367};
 const uint16_t Dont_care_4081[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4081[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4081 PROGMEM = {.Name = 4081 ,.Direction = 14835 ,.logic = logic_4081,.dont_care = Dont_care_4081 ,.clk = CLK_4081,.sizeof_array_logic = 4};
 
-const uint16_t logic_4082[] PROGMEM = {40960,41218,41476,41734,41992,42250,42508,42766,44688,43282,48927};
+const uint16_t logic_4082[] PROGMEM = {8192,8450,8708,8966,9224,9482,9740,9998,11920,10514,16159};
 const uint16_t Dont_care_4082[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_4082[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_4082 PROGMEM = {.Name = 4082 ,.Direction = 12286 ,.logic = logic_4082,.dont_care = Dont_care_4082 ,.clk = CLK_4082,.sizeof_array_logic = 11};
 
-const uint16_t logic_4093[] PROGMEM = {42508,44701,46894,47539};
+const uint16_t logic_4093[] PROGMEM = {9740,11933,14126,14771};
 const uint16_t Dont_care_4093[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_4093[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4093 PROGMEM = {.Name = 4093 ,.Direction = 14835 ,.logic = logic_4093,.dont_care = Dont_care_4093 ,.clk = CLK_4093,.sizeof_array_logic = 4};
@@ -353,62 +355,62 @@ const uint16_t Dont_care_4572[] PROGMEM = {65535,65535,65535,65535};
 const uint16_t CLK_4572[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_4572 PROGMEM = {.Name = 4572 ,.Direction = 60138 ,.logic = logic_4572,.dont_care = Dont_care_4572 ,.clk = CLK_4572,.sizeof_array_logic = 4};
 
-const uint16_t logic_7400[] PROGMEM = {58532,60845,63158,64283};
+const uint16_t logic_7400[] PROGMEM = {9380,11693,14006,15131};
 const uint16_t Dont_care_7400[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7400[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7400 PROGMEM = {.Name = 7400 ,.Direction = 15195 ,.logic = logic_7400,.dont_care = Dont_care_7400 ,.clk = CLK_7400,.sizeof_array_logic = 4};
 
-const uint16_t logic_7401[] PROGMEM = {61961,63131,64301,60854};
+const uint16_t logic_7401[] PROGMEM = {12809,13979,15149,11702};
 const uint16_t Dont_care_7401[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7401[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7401 PROGMEM = {.Name = 7401 ,.Direction = 11766 ,.logic = logic_7401,.dont_care = Dont_care_7401 ,.clk = CLK_7401,.sizeof_array_logic = 4};
 
-const uint16_t logic_7402[] PROGMEM = {61961,58514,59684,60854};
+const uint16_t logic_7402[] PROGMEM = {12809,9362,10532,11702};
 const uint16_t Dont_care_7402[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7402[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7402 PROGMEM = {.Name = 7402 ,.Direction = 11766 ,.logic = logic_7402,.dont_care = Dont_care_7402 ,.clk = CLK_7402,.sizeof_array_logic = 4};
 
-const uint16_t logic_7403[] PROGMEM = {58532,60845,63158,64283};
+const uint16_t logic_7403[] PROGMEM = {9380,11693,14006,15131};
 const uint16_t Dont_care_7403[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7403[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7403 PROGMEM = {.Name = 7403 ,.Direction = 15195 ,.logic = logic_7403,.dont_care = Dont_care_7403 ,.clk = CLK_7403,.sizeof_array_logic = 4};
 
-const uint16_t logic_7404[] PROGMEM = {60074,62741};
+const uint16_t logic_7404[] PROGMEM = {10922,13589};
 const uint16_t Dont_care_7404[] PROGMEM = {16383,16383};
 const uint16_t CLK_7404[] PROGMEM = {0,0};
 const IC_INFO IC_7404 PROGMEM = {.Name = 7404 ,.Direction = 13653 ,.logic = logic_7404,.dont_care = Dont_care_7404 ,.clk = CLK_7404,.sizeof_array_logic = 2};
 
-const uint16_t logic_7405[] PROGMEM = {60074,62741};
+const uint16_t logic_7405[] PROGMEM = {10922,13589};
 const uint16_t Dont_care_7405[] PROGMEM = {16383,16383};
 const uint16_t CLK_7405[] PROGMEM = {0,0};
 const IC_INFO IC_7405 PROGMEM = {.Name = 7405 ,.Direction = 13653 ,.logic = logic_7405,.dont_care = Dont_care_7405 ,.clk = CLK_7405,.sizeof_array_logic = 2};
 
-const uint16_t logic_7406[] PROGMEM = {60074,62741};
+const uint16_t logic_7406[] PROGMEM = {10922,13589};
 const uint16_t Dont_care_7406[] PROGMEM = {16383,16383};
 const uint16_t CLK_7406[] PROGMEM = {0,0};
 const IC_INFO IC_7406 PROGMEM = {.Name = 7406 ,.Direction = 13653 ,.logic = logic_7406,.dont_care = Dont_care_7406 ,.clk = CLK_7406,.sizeof_array_logic = 2};
 
-const uint16_t logic_7407[] PROGMEM = {65471,57344};
+const uint16_t logic_7407[] PROGMEM = {16319,8192};
 const uint16_t Dont_care_7407[] PROGMEM = {16383,16383};
 const uint16_t CLK_7407[] PROGMEM = {0,0};
 const IC_INFO IC_7407 PROGMEM = {.Name = 7407 ,.Direction = 13653 ,.logic = logic_7407,.dont_care = Dont_care_7407 ,.clk = CLK_7407,.sizeof_array_logic = 2};
 
-const uint16_t logic_7408[] PROGMEM = {57344,61970,59657,65471};
+const uint16_t logic_7408[] PROGMEM = {8192,12818,10505,16319};
 const uint16_t Dont_care_7408[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7408[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7408 PROGMEM = {.Name = 7408 ,.Direction = 15195 ,.logic = logic_7408,.dont_care = Dont_care_7408 ,.clk = CLK_7408,.sizeof_array_logic = 4};
 
-const uint16_t logic_7409[] PROGMEM = {65471,59657,61970,57344};
+const uint16_t logic_7409[] PROGMEM = {16319,10505,12818,8192};
 const uint16_t Dont_care_7409[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7409[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7409 PROGMEM = {.Name = 7409 ,.Direction = 15195 ,.logic = logic_7409,.dont_care = Dont_care_7409 ,.clk = CLK_7409,.sizeof_array_logic = 4};
 
-const uint16_t logic_7410[] PROGMEM = {59552,63908,60073,64429,60594,64950,61115,63263};
+const uint16_t logic_7410[] PROGMEM = {10400,14756,10921,15277,11442,15798,11963,14111};
 const uint16_t Dont_care_7410[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7410[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_7410 PROGMEM = {.Name = 7410 ,.Direction = 14175 ,.logic = logic_7410,.dont_care = Dont_care_7410 ,.clk = CLK_7410,.sizeof_array_logic = 8};
 
-const uint16_t logic_74107[] PROGMEM = {57378,58539,61986,62101,63018,63133};
+const uint16_t logic_74107[] PROGMEM = {8226,9387,12834,12949,13866,13981};
 const uint16_t Dont_care_74107[] PROGMEM = {16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74107[] PROGMEM = {2304,2304,2304,2304,2304,2304};
 const IC_INFO IC_74107 PROGMEM = {.Name = 74107 ,.Direction = 16329 ,.logic = logic_74107,.dont_care = Dont_care_74107 ,.clk = CLK_74107,.sizeof_array_logic = 6};
@@ -418,7 +420,7 @@ const uint16_t Dont_care_74109[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74109[] PROGMEM = {2056,2056,2056,2056,2056,2056,2056,2056};
 const IC_INFO IC_74109 PROGMEM = {.Name = 74109 ,.Direction = 64671 ,.logic = logic_74109,.dont_care = Dont_care_74109 ,.clk = CLK_74109,.sizeof_array_logic = 8};
 
-const uint16_t logic_7411[] PROGMEM = {57344,62480,57866,57605,58127,63002,62741,65471};
+const uint16_t logic_7411[] PROGMEM = {8192,13328,8714,8453,8975,13850,13589,16319};
 const uint16_t Dont_care_7411[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7411[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_7411 PROGMEM = {.Name = 7411 ,.Direction = 14175 ,.logic = logic_7411,.dont_care = Dont_care_7411 ,.clk = CLK_7411,.sizeof_array_logic = 8};
@@ -428,12 +430,12 @@ const uint16_t Dont_care_74112[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74112[] PROGMEM = {4097,4097,4097,4097,4097,4097,4097,4097};
 const IC_INFO IC_74112 PROGMEM = {.Name = 74112 ,.Direction = 65167 ,.logic = logic_74112,.dont_care = Dont_care_74112 ,.clk = CLK_74112,.sizeof_array_logic = 8};
 
-const uint16_t logic_74113[] PROGMEM = {57616,60694,58136,57628,60074,61214};
+const uint16_t logic_74113[] PROGMEM = {8464,11542,8984,8476,10922,12062};
 const uint16_t Dont_care_74113[] PROGMEM = {16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74113[] PROGMEM = {4097,4097,4097,4097,4097,4097};
 const IC_INFO IC_74113 PROGMEM = {.Name = 74113 ,.Direction = 15951 ,.logic = logic_74113,.dont_care = Dont_care_74113 ,.clk = CLK_74113,.sizeof_array_logic = 6};
 
-const uint16_t logic_7412[] PROGMEM = {59552,63908,60073,64429,60594,64950,61115,63263};
+const uint16_t logic_7412[] PROGMEM = {10400,14756,10921,15277,11442,15798,11963,14111};
 const uint16_t Dont_care_7412[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7412[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_7412 PROGMEM = {.Name = 7412 ,.Direction = 14175 ,.logic = logic_7412,.dont_care = Dont_care_7412 ,.clk = CLK_7412,.sizeof_array_logic = 8};
@@ -443,22 +445,22 @@ const uint16_t Dont_care_74123[] PROGMEM = {65535,65535,65535,65535,65535,65535}
 const uint16_t CLK_74123[] PROGMEM = {0,0,0,0,0,0};
 const IC_INFO IC_74123 PROGMEM = {.Name = 74123 ,.Direction = 34695 ,.logic = logic_74123,.dont_care = Dont_care_74123 ,.clk = CLK_74123,.sizeof_array_logic = 6};
 
-const uint16_t logic_74125[] PROGMEM = {60854,57344,63149,65471,65213,63407,65199,63421};
+const uint16_t logic_74125[] PROGMEM = {11702,8192,13997,16319,16061,14255,16047,14269};
 const uint16_t Dont_care_74125[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74125[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_74125 PROGMEM = {.Name = 74125 ,.Direction = 15195 ,.logic = logic_74125,.dont_care = Dont_care_74125 ,.clk = CLK_74125,.sizeof_array_logic = 8};
 
-const uint16_t logic_74126[] PROGMEM = {65471,61961,58532,60854};
+const uint16_t logic_74126[] PROGMEM = {16319,12809,9380,11702};
 const uint16_t Dont_care_74126[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_74126[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74126 PROGMEM = {.Name = 74126 ,.Direction = 15195 ,.logic = logic_74126,.dont_care = Dont_care_74126 ,.clk = CLK_74126,.sizeof_array_logic = 4};
 
-const uint16_t logic_7413[] PROGMEM = {57504,57761,58018,58275,59560,59817,60074,60331,65311};
+const uint16_t logic_7413[] PROGMEM = {8352,8609,8866,9123,10408,10665,10922,11179,16159};
 const uint16_t Dont_care_7413[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7413[] PROGMEM = {0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7413 PROGMEM = {.Name = 7413 ,.Direction = 16223 ,.logic = logic_7413,.dont_care = Dont_care_7413 ,.clk = CLK_7413,.sizeof_array_logic = 9};
 
-const uint16_t logic_74132[] PROGMEM = {58532,60845,63158,64283};
+const uint16_t logic_74132[] PROGMEM = {9380,11693,14006,15131};
 const uint16_t Dont_care_74132[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_74132[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74132 PROGMEM = {.Name = 74132 ,.Direction = 15195 ,.logic = logic_74132,.dont_care = Dont_care_74132 ,.clk = CLK_74132,.sizeof_array_logic = 4};
@@ -468,7 +470,7 @@ const uint16_t Dont_care_74133[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74133[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74133 PROGMEM = {.Name = 74133 ,.Direction = 65279 ,.logic = logic_74133,.dont_care = Dont_care_74133 ,.clk = CLK_74133,.sizeof_array_logic = 14};
 
-const uint16_t logic_74136[] PROGMEM = {57344,60845,63158,64283};
+const uint16_t logic_74136[] PROGMEM = {8192,11693,14006,15131};
 const uint16_t Dont_care_74136[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_74136[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74136 PROGMEM = {.Name = 74136 ,.Direction = 15195 ,.logic = logic_74136,.dont_care = Dont_care_74136 ,.clk = CLK_74136,.sizeof_array_logic = 4};
@@ -488,12 +490,12 @@ const uint16_t Dont_care_74139[] PROGMEM = {65535,65535,65535,65535,65535,65535}
 const uint16_t CLK_74139[] PROGMEM = {0,0,0,0,0,0};
 const IC_INFO IC_74139 PROGMEM = {.Name = 74139 ,.Direction = 61575 ,.logic = logic_74139,.dont_care = Dont_care_74139 ,.clk = CLK_74139,.sizeof_array_logic = 6};
 
-const uint16_t logic_7414[] PROGMEM = {43690,46357};
+const uint16_t logic_7414[] PROGMEM = {10922,13589};
 const uint16_t Dont_care_7414[] PROGMEM = {16383,16383};
 const uint16_t CLK_7414[] PROGMEM = {0,0};
 const IC_INFO IC_7414 PROGMEM = {.Name = 7414 ,.Direction = 13653 ,.logic = logic_7414,.dont_care = Dont_care_7414 ,.clk = CLK_7414,.sizeof_array_logic = 2};
 
-const uint16_t logic_74140[] PROGMEM = {41120,41377,41634,41891,43176,43433,43690,43947,48927};
+const uint16_t logic_74140[] PROGMEM = {8352,8609,8866,9123,10408,10665,10922,11179,16159};
 const uint16_t Dont_care_74140[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74140[] PROGMEM = {0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74140 PROGMEM = {.Name = 74140 ,.Direction = 16223 ,.logic = logic_74140,.dont_care = Dont_care_74140 ,.clk = CLK_74140,.sizeof_array_logic = 9};
@@ -513,7 +515,7 @@ const uint16_t Dont_care_74148[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74148[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74148 PROGMEM = {.Name = 74148 ,.Direction = 40607 ,.logic = logic_74148,.dont_care = Dont_care_74148 ,.clk = CLK_74148,.sizeof_array_logic = 10};
 
-const uint16_t logic_7415[] PROGMEM = {57344,61700,57865,62221,58386,62742,58907,65471};
+const uint16_t logic_7415[] PROGMEM = {8192,12548,8713,13069,9234,13590,9755,16319};
 const uint16_t Dont_care_7415[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7415[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_7415 PROGMEM = {.Name = 7415 ,.Direction = 14175 ,.logic = logic_7415,.dont_care = Dont_care_7415 ,.clk = CLK_7415,.sizeof_array_logic = 8};
@@ -538,7 +540,7 @@ const uint16_t Dont_care_74158[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74158[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74158 PROGMEM = {.Name = 74158 ,.Direction = 63159 ,.logic = logic_74158,.dont_care = Dont_care_74158 ,.clk = CLK_74158,.sizeof_array_logic = 10};
 
-const uint16_t logic_7416[] PROGMEM = {43690,46357};
+const uint16_t logic_7416[] PROGMEM = {10922,13589};
 const uint16_t Dont_care_7416[] PROGMEM = {16383,16383};
 const uint16_t CLK_7416[] PROGMEM = {0,0};
 const IC_INFO IC_7416 PROGMEM = {.Name = 7416 ,.Direction = 13653 ,.logic = logic_7416,.dont_care = Dont_care_7416 ,.clk = CLK_7416,.sizeof_array_logic = 2};
@@ -563,7 +565,7 @@ const uint16_t Dont_care_74163[] PROGMEM = {33791,33791,65535,65535,65535,65535,
 const uint16_t CLK_74163[] PROGMEM = {0,0,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0};
 const IC_INFO IC_74163 PROGMEM = {.Name = 74163 ,.Direction = 33791 ,.logic = logic_74163,.dont_care = Dont_care_74163 ,.clk = CLK_74163,.sizeof_array_logic = 17};
 
-const uint16_t logic_74164[] PROGMEM = {40960,40963,41216,41223,41231,41240,41266,41761};
+const uint16_t logic_74164[] PROGMEM = {8192,8195,8448,8455,8463,8472,8498,8993};
 const uint16_t Dont_care_74164[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74164[] PROGMEM = {128,128,128,128,128,128,128,128};
 const IC_INFO IC_74164 PROGMEM = {.Name = 74164 ,.Direction = 8643 ,.logic = logic_74164,.dont_care = Dont_care_74164 ,.clk = CLK_74164,.sizeof_array_logic = 8};
@@ -578,7 +580,7 @@ const uint16_t Dont_care_74166[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74166[] PROGMEM = {64,64,64,64,64,64,64,64,64,64,64,64};
 const IC_INFO IC_74166 PROGMEM = {.Name = 74166 ,.Direction = 61439 ,.logic = logic_74166,.dont_care = Dont_care_74166 ,.clk = CLK_74166,.sizeof_array_logic = 12};
 
-const uint16_t logic_7417[] PROGMEM = {49087,40960};
+const uint16_t logic_7417[] PROGMEM = {16319,8192};
 const uint16_t Dont_care_7417[] PROGMEM = {16383,16383};
 const uint16_t CLK_7417[] PROGMEM = {0,0};
 const IC_INFO IC_7417 PROGMEM = {.Name = 7417 ,.Direction = 13653 ,.logic = logic_7417,.dont_care = Dont_care_7417 ,.clk = CLK_7417,.sizeof_array_logic = 2};
@@ -598,7 +600,7 @@ const uint16_t Dont_care_74175[] PROGMEM = {65535,65535,65535,65535};
 const uint16_t CLK_74175[] PROGMEM = {256,256,256,256};
 const IC_INFO IC_74175 PROGMEM = {.Name = 74175 ,.Direction = 39321 ,.logic = logic_74175,.dont_care = Dont_care_74175 ,.clk = CLK_74175,.sizeof_array_logic = 4};
 
-const uint16_t logic_7418[] PROGMEM = {41120,41377,41634,41891,43176,43433,43690,43947,48927};
+const uint16_t logic_7418[] PROGMEM = {8352,8609,8866,9123,10408,10665,10922,11179,16159};
 const uint16_t Dont_care_7418[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7418[] PROGMEM = {0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7418 PROGMEM = {.Name = 7418 ,.Direction = 16223 ,.logic = logic_7418,.dont_care = Dont_care_7418 ,.clk = CLK_7418,.sizeof_array_logic = 9};
@@ -638,17 +640,17 @@ const uint16_t Dont_care_74195[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74195[] PROGMEM = {512,512,512,512,512,512,512};
 const IC_INFO IC_74195 PROGMEM = {.Name = 74195 ,.Direction = 33791 ,.logic = logic_74195,.dont_care = Dont_care_74195 ,.clk = CLK_74195,.sizeof_array_logic = 7};
 
-const uint16_t logic_7420[] PROGMEM = {41120,41377,41634,41891,43176,43433,43690,43947,48927};
+const uint16_t logic_7420[] PROGMEM = {8352,8609,8866,9123,10408,10665,10922,11179,16159};
 const uint16_t Dont_care_7420[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7420[] PROGMEM = {0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7420 PROGMEM = {.Name = 7420 ,.Direction = 16223 ,.logic = logic_7420,.dont_care = Dont_care_7420 ,.clk = CLK_7420,.sizeof_array_logic = 9};
 
-const uint16_t logic_7421[] PROGMEM = {48059,45586,43273,40960};
+const uint16_t logic_7421[] PROGMEM = {15291,12818,10505,8192};
 const uint16_t Dont_care_7421[] PROGMEM = {15355,15355,15355,15355};
 const uint16_t CLK_7421[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7421 PROGMEM = {.Name = 7421 ,.Direction = 15195 ,.logic = logic_7421,.dont_care = Dont_care_7421 ,.clk = CLK_7421,.sizeof_array_logic = 4};
 
-const uint16_t logic_7422[] PROGMEM = {41120,41377,41634,41891,43176,43433,43690,43947,45232,45489,45746,46003,47288,47545,47802,47899};
+const uint16_t logic_7422[] PROGMEM = {8352,8609,8866,9123,10408,10665,10922,11179,12464,12721,12978,13235,14520,14777,15034,15131};
 const uint16_t Dont_care_7422[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7422[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7422 PROGMEM = {.Name = 7422 ,.Direction = 16223 ,.logic = logic_7422,.dont_care = Dont_care_7422 ,.clk = CLK_7422,.sizeof_array_logic = 16};
@@ -658,17 +660,17 @@ const uint16_t Dont_care_74237[] PROGMEM = {32959,65535,65535,65535,65535,65535,
 const uint16_t CLK_74237[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74237 PROGMEM = {.Name = 74237 ,.Direction = 32959 ,.logic = logic_74237,.dont_care = Dont_care_74237 ,.clk = CLK_74237,.sizeof_array_logic = 10};
 
-const uint16_t logic_74242[] PROGMEM = {45117,46977,42880,41020};
+const uint16_t logic_74242[] PROGMEM = {12349,14209,10112,8252};
 const uint16_t Dont_care_74242[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_74242[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74242 PROGMEM = {.Name = 74242 ,.Direction = 16323 ,.logic = logic_74242,.dont_care = Dont_care_74242 ,.clk = CLK_74242,.sizeof_array_logic = 4};
 
-const uint16_t logic_74243[] PROGMEM = {47037,45057,42940,40960};
+const uint16_t logic_74243[] PROGMEM = {14269,12289,10172,8192};
 const uint16_t Dont_care_74243[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_74243[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74243 PROGMEM = {.Name = 74243 ,.Direction = 16323 ,.logic = logic_74243,.dont_care = Dont_care_74243 ,.clk = CLK_74243,.sizeof_array_logic = 4};
 
-const uint16_t logic_7425[] PROGMEM = {42245,42502,42759,44044,44301,44558,44815,46100,46357,46614,46871,48156,48413,48670,48927,42148};
+const uint16_t logic_7425[] PROGMEM = {9477,9734,9991,11276,11533,11790,12047,13332,13589,13846,14103,15388,15645,15902,16159,9380};
 const uint16_t Dont_care_7425[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7425[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7425 PROGMEM = {.Name = 7425 ,.Direction = 16223 ,.logic = logic_7425,.dont_care = Dont_care_7425 ,.clk = CLK_7425,.sizeof_array_logic = 16};
@@ -698,32 +700,32 @@ const uint16_t Dont_care_74259[] PROGMEM = {65535,65535,65535,65535,65535,65535,
 const uint16_t CLK_74259[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_74259 PROGMEM = {.Name = 74259 ,.Direction = 61575 ,.logic = logic_74259,.dont_care = Dont_care_74259 ,.clk = CLK_74259,.sizeof_array_logic = 8};
 
-const uint16_t logic_7426[] PROGMEM = {42148,46765,44470,47899};
+const uint16_t logic_7426[] PROGMEM = {9380,13997,11702,15131};
 const uint16_t Dont_care_7426[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7426[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7426 PROGMEM = {.Name = 7426 ,.Direction = 15195 ,.logic = logic_7426,.dont_care = Dont_care_7426 ,.clk = CLK_7426,.sizeof_array_logic = 4};
 
-const uint16_t logic_74260[] PROGMEM = {41008,45701,44298,48523,44548,49039,41089,46855,43910,47501};
+const uint16_t logic_74260[] PROGMEM = {8240,12933,11530,15755,11780,16271,8321,14087,11142,14733};
 const uint16_t Dont_care_74260[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74260[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74260 PROGMEM = {.Name = 74260 ,.Direction = 16335 ,.logic = logic_74260,.dont_care = Dont_care_74260 ,.clk = CLK_74260,.sizeof_array_logic = 10};
 
-const uint16_t logic_74266[] PROGMEM = {42508,43153,45346,49087};
+const uint16_t logic_74266[] PROGMEM = {9740,10385,12578,16319};
 const uint16_t Dont_care_74266[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_74266[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74266 PROGMEM = {.Name = 74266 ,.Direction = 14835 ,.logic = logic_74266,.dont_care = Dont_care_74266 ,.clk = CLK_74266,.sizeof_array_logic = 4};
 
-const uint16_t logic_7427[] PROGMEM = {43168,45316,41481,45837,42002,46357,42523,46879};
+const uint16_t logic_7427[] PROGMEM = {10400,12548,8713,13069,9234,13589,9755,14111};
 const uint16_t Dont_care_7427[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7427[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_7427 PROGMEM = {.Name = 7427 ,.Direction = 14175 ,.logic = logic_7427,.dont_care = Dont_care_7427 ,.clk = CLK_7427,.sizeof_array_logic = 8};
 
-const uint16_t logic_7428[] PROGMEM = {45577,42130,43300,44470};
+const uint16_t logic_7428[] PROGMEM = {12809,9362,10532,11702};
 const uint16_t Dont_care_7428[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7428[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7428 PROGMEM = {.Name = 7428 ,.Direction = 11766 ,.logic = logic_7428,.dont_care = Dont_care_7428 ,.clk = CLK_7428,.sizeof_array_logic = 4};
 
-const uint16_t logic_74280[] PROGMEM = {46377,43666,49067,40976,45227,48928,45859,42648};
+const uint16_t logic_74280[] PROGMEM = {13609,10898,16299,8208,12459,16160,13091,9880};
 const uint16_t Dont_care_74280[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74280[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_74280 PROGMEM = {.Name = 74280 ,.Direction = 16335 ,.logic = logic_74280,.dont_care = Dont_care_74280 ,.clk = CLK_74280,.sizeof_array_logic = 8};
@@ -738,7 +740,7 @@ const uint16_t Dont_care_74292[] PROGMEM = {61339,65535,65535,65535,65535,65535}
 const uint16_t CLK_74292[] PROGMEM = {0,8,8,8,8,8};
 const IC_INFO IC_74292 PROGMEM = {.Name = 74292 ,.Direction = 61339 ,.logic = logic_74292,.dont_care = Dont_care_74292 ,.clk = CLK_74292,.sizeof_array_logic = 6};
 
-const uint16_t logic_74293[] PROGMEM = {48640,42496,42240,42752,41744,42768,41736,42760,41752,42776,41856,42880};
+const uint16_t logic_74293[] PROGMEM = {15872,9728,9472,9984,8976,10000,8968,9992,8984,10008,9088,10112};
 const uint16_t Dont_care_74293[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74293[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74293 PROGMEM = {.Name = 74293 ,.Direction = 15975 ,.logic = logic_74293,.dont_care = Dont_care_74293 ,.clk = CLK_74293,.sizeof_array_logic = 12};
@@ -753,12 +755,12 @@ const uint16_t Dont_care_74298[] PROGMEM = {65535,65535};
 const uint16_t CLK_74298[] PROGMEM = {1024,1024};
 const IC_INFO IC_74298 PROGMEM = {.Name = 74298 ,.Direction = 34815 ,.logic = logic_74298,.dont_care = Dont_care_74298 ,.clk = CLK_74298,.sizeof_array_logic = 2};
 
-const uint16_t logic_7430[] PROGMEM = {44095,44222,44221,44219,44215,44207,44191,43199,42175,41089};
+const uint16_t logic_7430[] PROGMEM = {11327,11454,11453,11451,11447,11439,11423,10431,9407,8321};
 const uint16_t Dont_care_7430[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7430[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7430 PROGMEM = {.Name = 7430 ,.Direction = 16255 ,.logic = logic_7430,.dont_care = Dont_care_7430 ,.clk = CLK_7430,.sizeof_array_logic = 10};
 
-const uint16_t logic_7432[] PROGMEM = {40960,44470,46765,49087};
+const uint16_t logic_7432[] PROGMEM = {8192,11702,13997,16319};
 const uint16_t Dont_care_7432[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7432[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7432 PROGMEM = {.Name = 7432 ,.Direction = 15195 ,.logic = logic_7432,.dont_care = Dont_care_7432 ,.clk = CLK_7432,.sizeof_array_logic = 4};
@@ -783,7 +785,7 @@ const uint16_t Dont_care_74368[] PROGMEM = {65535,65535,65535,65535};
 const uint16_t CLK_74368[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74368 PROGMEM = {.Name = 74368 ,.Direction = 60075 ,.logic = logic_74368,.dont_care = Dont_care_74368 ,.clk = CLK_74368,.sizeof_array_logic = 4};
 
-const uint16_t logic_7437[] PROGMEM = {42148,44461,46774,47899};
+const uint16_t logic_7437[] PROGMEM = {9380,11693,14006,15131};
 const uint16_t Dont_care_7437[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7437[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7437 PROGMEM = {.Name = 7437 ,.Direction = 15195 ,.logic = logic_7437,.dont_care = Dont_care_7437 ,.clk = CLK_7437,.sizeof_array_logic = 4};
@@ -793,12 +795,12 @@ const uint16_t Dont_care_74375[] PROGMEM = {65535,65535,65535,65535};
 const uint16_t CLK_74375[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74375 PROGMEM = {.Name = 74375 ,.Direction = 51657 ,.logic = logic_74375,.dont_care = Dont_care_74375 ,.clk = CLK_74375,.sizeof_array_logic = 4};
 
-const uint16_t logic_7438[] PROGMEM = {42148,44461,46774,47899};
+const uint16_t logic_7438[] PROGMEM = {9380,11693,14006,15131};
 const uint16_t Dont_care_7438[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7438[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7438 PROGMEM = {.Name = 7438 ,.Direction = 15195 ,.logic = logic_7438,.dont_care = Dont_care_7438 ,.clk = CLK_7438,.sizeof_array_logic = 4};
 
-const uint16_t logic_74386[] PROGMEM = {40960,44701,46894,47539};
+const uint16_t logic_74386[] PROGMEM = {8192,11933,14126,14771};
 const uint16_t Dont_care_74386[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_74386[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_74386 PROGMEM = {.Name = 74386 ,.Direction = 14835 ,.logic = logic_74386,.dont_care = Dont_care_74386 ,.clk = CLK_74386,.sizeof_array_logic = 4};
@@ -808,12 +810,12 @@ const uint16_t Dont_care_74390[] PROGMEM = {59531,65535,65535,65535,65535,65535,
 const uint16_t CLK_74390[] PROGMEM = {0,0,16385,16385,16385,16385,16385,16385,16385,16385,16385,16385};
 const IC_INFO IC_74390 PROGMEM = {.Name = 74390 ,.Direction = 59531 ,.logic = logic_74390,.dont_care = Dont_care_74390 ,.clk = CLK_74390,.sizeof_array_logic = 12};
 
-const uint16_t logic_74393[] PROGMEM = {40960,40960,40960,47107,45057,41988,46085,41480,45577,42508,46605,41232,45329,42260,46357};
+const uint16_t logic_74393[] PROGMEM = {8192,8192,8192,14339,12289,9220,13317,8712,12809,9740,13837,8464,12561,9492,13589};
 const uint16_t Dont_care_74393[] PROGMEM = {14403,14403,14403,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_74393[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_74393 PROGMEM = {.Name = 74393 ,.Direction = 14403 ,.logic = logic_74393,.dont_care = Dont_care_74393 ,.clk = CLK_74393,.sizeof_array_logic = 15};
 
-const uint16_t logic_7440[] PROGMEM = {41120,41377,41634,41891,43176,43433,43690,43947,48927};
+const uint16_t logic_7440[] PROGMEM = {8352,8609,8866,9123,10408,10665,10922,11179,16159};
 const uint16_t Dont_care_7440[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7440[] PROGMEM = {0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7440 PROGMEM = {.Name = 7440 ,.Direction = 16223 ,.logic = logic_7440,.dont_care = Dont_care_7440 ,.clk = CLK_7440,.sizeof_array_logic = 9};
@@ -833,22 +835,22 @@ const uint16_t Dont_care_7447[] PROGMEM = {65535,65535,65535,65535,65535,65535,6
 const uint16_t CLK_7447[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7447 PROGMEM = {.Name = 7447 ,.Direction = 33015 ,.logic = logic_7447,.dont_care = Dont_care_7447 ,.clk = CLK_7447,.sizeof_array_logic = 10};
 
-const uint16_t logic_7450[] PROGMEM = {43168,47903,43435,47129};
+const uint16_t logic_7450[] PROGMEM = {10400,15135,10667,14361};
 const uint16_t Dont_care_7450[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7450[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7450 PROGMEM = {.Name = 7450 ,.Direction = 16223 ,.logic = logic_7450,.dont_care = Dont_care_7450 ,.clk = CLK_7450,.sizeof_array_logic = 4};
 
-const uint16_t logic_7451[] PROGMEM = {45857,45730,41381,41094,41384,41776,41624,41133,45107,45214};
+const uint16_t logic_7451[] PROGMEM = {13089,12962,8613,8326,8616,9008,8856,8365,12339,12446};
 const uint16_t Dont_care_7451[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7451[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7451 PROGMEM = {.Name = 7451 ,.Direction = 16223 ,.logic = logic_7451,.dont_care = Dont_care_7451 ,.clk = CLK_7451,.sizeof_array_logic = 10};
 
-const uint16_t logic_7455[] PROGMEM = {41231,48896,48001,47490,46979,46468,45957,45446,44935,44424};
+const uint16_t logic_7455[] PROGMEM = {8463,16128,15233,14722,14211,13700,13189,12678,12167,11656};
 const uint16_t Dont_care_7455[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7455[] PROGMEM = {0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7455 PROGMEM = {.Name = 7455 ,.Direction = 16255 ,.logic = logic_7455,.dont_care = Dont_care_7455 ,.clk = CLK_7455,.sizeof_array_logic = 10};
 
-const uint16_t logic_7458[] PROGMEM = {49087,47271,40960};
+const uint16_t logic_7458[] PROGMEM = {16319,14503,8192};
 const uint16_t Dont_care_7458[] PROGMEM = {16383,16383,16383};
 const uint16_t CLK_7458[] PROGMEM = {0,0,0};
 const IC_INFO IC_7458 PROGMEM = {.Name = 7458 ,.Direction = 16223 ,.logic = logic_7458,.dont_care = Dont_care_7458 ,.clk = CLK_7458,.sizeof_array_logic = 3};
@@ -868,32 +870,32 @@ const uint16_t Dont_care_74597[] PROGMEM = {65279,65535,65535,65535,65535};
 const uint16_t CLK_74597[] PROGMEM = {2048,2048,2048,1024,1024};
 const IC_INFO IC_74597 PROGMEM = {.Name = 74597 ,.Direction = 65279 ,.logic = logic_74597,.dont_care = Dont_care_74597 ,.clk = CLK_74597,.sizeof_array_logic = 5};
 
-const uint16_t logic_7460[] PROGMEM = {46783,43413,47402,43264};
+const uint16_t logic_7460[] PROGMEM = {14015,10645,14634,10496};
 const uint16_t Dont_care_7460[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7460[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7460 PROGMEM = {.Name = 7460 ,.Direction = 12543 ,.logic = logic_7460,.dont_care = Dont_care_7460 ,.clk = CLK_7460,.sizeof_array_logic = 4};
 
-const uint16_t logic_7461[] PROGMEM = {49087,46101,43050,40960,41223,41144,48640};
+const uint16_t logic_7461[] PROGMEM = {16319,13333,10282,8192,8455,8376,15872};
 const uint16_t Dont_care_7461[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7461[] PROGMEM = {0,0,0,0,0,0,0};
 const IC_INFO IC_7461 PROGMEM = {.Name = 7461 ,.Direction = 15487 ,.logic = logic_7461,.dont_care = Dont_care_7461 ,.clk = CLK_7461,.sizeof_array_logic = 7};
 
-const uint16_t logic_7462[] PROGMEM = {49055,40992,41091,41116,42880,47232,46389,43562};
+const uint16_t logic_7462[] PROGMEM = {16287,8224,8323,8348,10112,14464,13621,10794};
 const uint16_t Dont_care_7462[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7462[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_7462 PROGMEM = {.Name = 7462 ,.Direction = 16223 ,.logic = logic_7462,.dont_care = Dont_care_7462 ,.clk = CLK_7462,.sizeof_array_logic = 8};
 
-const uint16_t logic_7465[] PROGMEM = {41088,46506,43669,48959,40966,41016,42752,47105};
+const uint16_t logic_7465[] PROGMEM = {8320,13738,10901,16191,8198,8248,9984,14337};
 const uint16_t Dont_care_7465[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7465[] PROGMEM = {0,0,0,0,0,0,0,0};
 const IC_INFO IC_7465 PROGMEM = {.Name = 7465 ,.Direction = 16255 ,.logic = logic_7465,.dont_care = Dont_care_7465 ,.clk = CLK_7465,.sizeof_array_logic = 8};
 
-const uint16_t logic_7472[] PROGMEM = {45116,42882,45186,45442,45954,46882,45090,45094,45102,45214,46910,47006,46746};
+const uint16_t logic_7472[] PROGMEM = {12348,10114,12418,12674,13186,14114,12322,12326,12334,12446,14142,14238,13978};
 const uint16_t Dont_care_7472[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7472[] PROGMEM = {2048,2048,2048,2048,2048,2048,2048,2048,2048,2048,2048,2048,2048};
 const IC_INFO IC_7472 PROGMEM = {.Name = 7472 ,.Direction = 16223 ,.logic = logic_7472,.dont_care = Dont_care_7472 ,.clk = CLK_7472,.sizeof_array_logic = 13};
 
-const uint16_t logic_7474[] PROGMEM = {41642,41617,41641,41627,43688,45352,45736,47912};
+const uint16_t logic_7474[] PROGMEM = {8874,8849,8873,8859,10920,12584,12968,15144};
 const uint16_t Dont_care_7474[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
 const uint16_t CLK_7474[] PROGMEM = {4,4,4,4,1024,1024,1024,1024};
 const IC_INFO IC_7474 PROGMEM = {.Name = 7474 ,.Direction = 15951 ,.logic = logic_7474,.dont_care = Dont_care_7474 ,.clk = CLK_7474,.sizeof_array_logic = 8};
@@ -908,27 +910,43 @@ const uint16_t Dont_care_7485[] PROGMEM = {65535,65535,65535,65535,65535,65535,6
 const uint16_t CLK_7485[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0};
 const IC_INFO IC_7485 PROGMEM = {.Name = 7485 ,.Direction = 65423 ,.logic = logic_7485,.dont_care = Dont_care_7485 ,.clk = CLK_7485,.sizeof_array_logic = 12};
 
-const uint16_t logic_7486[] PROGMEM = {40960,46774,44461,47899};
+const uint16_t logic_7486[] PROGMEM = {8192,14006,11693,15131};
 const uint16_t Dont_care_7486[] PROGMEM = {16383,16383,16383,16383};
 const uint16_t CLK_7486[] PROGMEM = {0,0,0,0};
 const IC_INFO IC_7486 PROGMEM = {.Name = 7486 ,.Direction = 15195 ,.logic = logic_7486,.dont_care = Dont_care_7486 ,.clk = CLK_7486,.sizeof_array_logic = 4};
 
+const uint16_t logic_74176[] PROGMEM = {8193,8192,16158,13062,15384,16128,12318,12288};
+const uint16_t Dont_care_74176[] PROGMEM = {16383,16383,16383,16383,16383,16383,16383,16383};
+const uint16_t CLK_74176[] PROGMEM = {160,160,160,160,160,160,160,160};
+const IC_INFO IC_74176 PROGMEM = {.Name = 74176 ,.Direction = 14061 ,.logic = logic_74176,.dont_care = Dont_care_74176 ,.clk = CLK_74176,.sizeof_array_logic = 8};
+
+const uint16_t logic_74170[] PROGMEM = {34816,47164,39186,46104,51721};
+const uint16_t Dont_care_74170[] PROGMEM = {65535,65535,65535,65535,65535};
+const uint16_t CLK_74170[] PROGMEM = {0,0,0,0,0};
+const IC_INFO IC_74170 PROGMEM = {.Name = 74170 ,.Direction = 64671 ,.logic = logic_74170,.dont_care = Dont_care_74170 ,.clk = CLK_74170,.sizeof_array_logic = 5};
+
+const uint16_t logic_74373[] PROGMEM = {525313,525312,524288,629862,628838,943512,942488,925152,924128,556062,555038,1048062,1047038};
+const uint16_t Dont_care_74373[] PROGMEM = {1048575,1048575,1048575,1048575,1048575,1048575,1048575,1048575,1048575,1048575,1048575,1048575,1048575};
+const uint16_t CLK_74373[] PROGMEM = {0,0,0,0,0,0,0,0,0,0,0,0,0};
+const IC_INFO IC_74373 PROGMEM = {.Name = 74373 ,.Direction = 734925 ,.logic = logic_74373,.dont_care = Dont_care_74373 ,.clk = CLK_74373,.sizeof_array_logic = 13};
 
 
 
 
 
 
-IC_INFO *ICs[] = {  &IC_4000,&IC_4001,&IC_4002,&IC_4009,&IC_4010,&IC_40106,&IC_4011,&IC_4012,&IC_4013,&IC_4015,&IC_4016,&IC_40161,&IC_40162,&IC_4017,&IC_40174,&IC_40175,&IC_4018,&IC_4019,
-					&IC_40192,&IC_40193,&IC_4020,&IC_4022,&IC_4023,&IC_4024,&IC_4025,&IC_4027,&IC_4028,&IC_4029,&IC_4030,&IC_4031,&IC_4040,&IC_4041,&IC_4042,&IC_4043,&IC_4044,&IC_4048,
-					&IC_4049,&IC_4051,&IC_4053,&IC_4066,&IC_4068,&IC_4069,&IC_4070,&IC_4071,&IC_4072,&IC_4073,&IC_4075,&IC_4076,&IC_4077,&IC_4078,&IC_4081,&IC_4082,&IC_4093,&IC_4094,&IC_4098,
-					&IC_4503,&IC_4510,&IC_4511,&IC_4512,&IC_4518,&IC_4519,&IC_4520,&IC_4529,&IC_4532,&IC_4543,&IC_4572,&IC_7400,&IC_7401,&IC_7402,&IC_7403,&IC_7404,&IC_7405,&IC_7406,&IC_7407,
-					&IC_7408,&IC_7409,&IC_7410,&IC_74107,&IC_74109,&IC_7411,&IC_74112,&IC_74113,&IC_7412,&IC_74123,&IC_74125,&IC_74126,&IC_7413,&IC_74132,&IC_74133,&IC_74136,&IC_74137,
-					&IC_74138,&IC_74139,&IC_7414,&IC_74140,&IC_74145,&IC_74147,&IC_74148,&IC_7415,&IC_74151,&IC_74153,&IC_74157,&IC_74158,&IC_7416,&IC_74160,&IC_74161,&IC_74162,&IC_74163,
-					&IC_74164,&IC_74165,&IC_74166,&IC_7417,&IC_74173,&IC_74174,&IC_74175,&IC_7418,&IC_74182,&IC_74190,&IC_74191,&IC_74192,&IC_74193,&IC_74194,&IC_74195,&IC_7420,&IC_7421,
-					&IC_7422,&IC_74237,&IC_74242,&IC_74243,&IC_7425,&IC_74251,&IC_74253,&IC_74257,&IC_74258,&IC_74259,&IC_7426,&IC_74260,&IC_74266,&IC_7427,&IC_7428,&IC_74280,&IC_74283,
-					&IC_74292,&IC_74293,&IC_74294,&IC_74298,&IC_7430,&IC_7432,&IC_74365,&IC_74366,&IC_74367,&IC_74368,&IC_7437,&IC_74375,&IC_7438,&IC_74386,&IC_74390,&IC_74393,&IC_7440,
-					&IC_7442,&IC_7446,&IC_7447,&IC_7450,&IC_7451,&IC_7455,&IC_7458,&IC_74589,&IC_74595,&IC_74597,&IC_7460,&IC_7461,&IC_7462,&IC_7465,&IC_7472,&IC_7474,&IC_7475,&IC_7485,&IC_7486,};
+IC_INFO *ICs[] = {&IC_4000,&IC_4001,&IC_4002,&IC_4009,&IC_4010,&IC_40106,&IC_4011,&IC_4012,&IC_4013,&IC_4015,&IC_4016,&IC_40161,&IC_40162,&IC_4017,
+	&IC_40174,&IC_40175,&IC_4018,&IC_4019,&IC_40192,&IC_40193,&IC_4020,&IC_4022,&IC_4023,&IC_4024,&IC_4025,&IC_4027,&IC_4028,&IC_4029,&IC_4030,&IC_4031
+	,&IC_4040,&IC_4041,&IC_4042,&IC_4043,&IC_4044,&IC_4048,&IC_4049,&IC_4051,&IC_4053,&IC_4066,&IC_4068,&IC_4069,&IC_4070,&IC_4071,&IC_4072,&IC_4073
+	,&IC_4075,&IC_4076,&IC_4077,&IC_4078,&IC_4081,&IC_4082,&IC_4093,&IC_4094,&IC_4098,&IC_4503,&IC_4510,&IC_4511,&IC_4512,&IC_4518,&IC_4519,&IC_4520,
+	&IC_4529,&IC_4532,&IC_4543,&IC_4572,&IC_7400,&IC_7401,&IC_7402,&IC_7403,&IC_7404,&IC_7405,&IC_7406,&IC_7407,&IC_7408,&IC_7409,&IC_7410,&IC_74107,
+	&IC_74109,&IC_7411,&IC_74112,&IC_74113,&IC_7412,&IC_74123,&IC_74125,&IC_74126,&IC_7413,&IC_74132,&IC_74133,&IC_74136,&IC_74137,&IC_74138,&IC_74139,
+	&IC_7414,&IC_74140,&IC_74145,&IC_74147,&IC_74148,&IC_7415,&IC_74151,&IC_74153,&IC_74157,&IC_74158,&IC_7416,&IC_74160,&IC_74161,&IC_74162,&IC_74163,
+	&IC_74164,&IC_74165,&IC_74166,&IC_7417,&IC_74173,&IC_74174,&IC_74175,&IC_7418,&IC_74182,&IC_74190,&IC_74191,&IC_74192,&IC_74193,&IC_74194,&IC_74195,
+	&IC_7420,&IC_7421,&IC_7422,&IC_74237,&IC_74242,&IC_74243,&IC_7425,&IC_74251,&IC_74253,&IC_74257,&IC_74258,&IC_74259,&IC_7426,&IC_74260,&IC_74266,
+	&IC_7427,&IC_7428,&IC_74280,&IC_74283,&IC_74292,&IC_74293,&IC_74294,&IC_74298,&IC_7430,&IC_7432,&IC_74365,&IC_74366,&IC_74367,&IC_74368,&IC_7437,
+	&IC_74375,&IC_7438,&IC_74386,&IC_74390,&IC_74393,&IC_7440,&IC_7442,&IC_7446,&IC_7447,&IC_7450,&IC_7451,&IC_7455,&IC_7458,&IC_74589,&IC_74595,
+	&IC_74597,&IC_7460,&IC_7461,&IC_7462,&IC_7465,&IC_7472,&IC_7474,&IC_7475,&IC_7485,&IC_7486,&IC_74176,&IC_74170};
 
 
 

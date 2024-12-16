@@ -5,17 +5,6 @@
  * Author : mo ali
  */ 
 #include "main.h"
-#define RS  PC4
-#define E   PC5
-
-void LCD_Init(void);
-void LCD_Send_Command(uint8_t cmd);
-void LCD_Send_Data(char data);
-void LCD_Clear(void);
-void LCD_SetCursor(uint8_t row, uint8_t col);
-void LCD_Send_String(char *str);
-
-
 int main(void)
 {
 	uint8_t trav_ICs;
@@ -36,6 +25,7 @@ int main(void)
 					LCD_Send_String("     ");
 					LCD_SetCursor(2,11);
 					LCD_Send_String(temp_Name);
+					PORTD |= (1 << PD7);
 					break;
 				}
 				clear_logic_array();
@@ -58,8 +48,10 @@ int main(void)
 /* ==================================================================================== Init Function ======================================================================================================== */
 void Init(void){
 	EXT_INTx_Init(&begin_test);
-	USART_Init();
+	//USART_Init();
 	LCD_Init();
+	DDRD |=(1 << PD7);
+	PORTD&=	~(1 << PD7);
 }
 /* ==================================================================================== Test IC ======================================================================================================== */
 bool Test_IC(IC_INFO *ic)
@@ -113,7 +105,7 @@ uint16_t read_Logic(void){
 void begin_function(void){
 	begin_flag = true;
 	test_flag = false;
-	PORTC ^= (1 << PC0);
+	PORTD&=	~(1 << PD7);
 }
 
 

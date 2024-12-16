@@ -8,14 +8,14 @@
 
 #ifndef MAIN_H_
 #define MAIN_H_
-#define F_CPU 8000000UL
+#define F_CPU 11059200UL
 
 #include "IC_Dataset.h"
 #include "MCAL/External_Interrupt.h"
 
 /* =========================Init function ====================== */
 void Init(void);
-uint8_t Number_of_ICs = 178 ;
+uint8_t Number_of_ICs = 180 ;
 /* =========================test functions ====================== */
 bool Test_IC(IC_INFO *ic);
 void apply_Direction(uint16_t direction);
@@ -49,6 +49,15 @@ void send_string(char *ch);
 void unsignedIntToStr(uint32_t num, char *str);
 char temp_Name[6] ;
 
+/* ============================ LCD Declaration ======================== */
+#define RS  PC4
+#define E   PC5
+void LCD_Init(void);
+void LCD_Send_Command(uint8_t cmd);
+void LCD_Send_Data(char data);
+void LCD_Clear(void);
+void LCD_SetCursor(uint8_t row, uint8_t col);
+void LCD_Send_String(char *str);
 
 
 #endif /* MAIN_H_ */
