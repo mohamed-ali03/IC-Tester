@@ -243,7 +243,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x33a8
+.text           0x00000000     0x336a
  *(.vectors)
  .vectors       0x00000000       0x54 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
                 0x00000000                __vector_default
@@ -2517,78 +2517,69 @@ END GROUP
                 0x00002d16                Test_IC_16
  .text.Test_IC  0x00002da6       0x32 main.o
                 0x00002da6                Test_IC
- .text.send_char
-                0x00002dd8        0x8 main.o
-                0x00002dd8                send_char
- .text.send_string
-                0x00002de0       0x1a main.o
-                0x00002de0                send_string
- .text.USART_Init
-                0x00002dfa       0x18 main.o
-                0x00002dfa                USART_Init
  .text.unsignedIntToStr
-                0x00002e12       0xa8 main.o
-                0x00002e12                unsignedIntToStr
+                0x00002dd8       0xa8 main.o
+                0x00002dd8                unsignedIntToStr
  .text.clear_logic_array
-                0x00002eba       0x26 main.o
-                0x00002eba                clear_logic_array
+                0x00002e80       0x26 main.o
+                0x00002e80                clear_logic_array
  .text.clear_dont_care_array
-                0x00002ee0       0x26 main.o
-                0x00002ee0                clear_dont_care_array
+                0x00002ea6       0x26 main.o
+                0x00002ea6                clear_dont_care_array
  .text.clear_clk_array
-                0x00002f06       0x26 main.o
-                0x00002f06                clear_clk_array
+                0x00002ecc       0x26 main.o
+                0x00002ecc                clear_clk_array
  .text.LCD_Enable
-                0x00002f2c       0x1a main.o
-                0x00002f2c                LCD_Enable
+                0x00002ef2       0x1a main.o
+                0x00002ef2                LCD_Enable
  .text.LCD_Send_Command
-                0x00002f46       0x38 main.o
-                0x00002f46                LCD_Send_Command
+                0x00002f0c       0x38 main.o
+                0x00002f0c                LCD_Send_Command
  .text.LCD_SetCursor
-                0x00002f7e       0x14 main.o
-                0x00002f7e                LCD_SetCursor
+                0x00002f44       0x14 main.o
+                0x00002f44                LCD_SetCursor
  .text.LCD_Send_Data
-                0x00002f92       0x38 main.o
-                0x00002f92                LCD_Send_Data
+                0x00002f58       0x38 main.o
+                0x00002f58                LCD_Send_Data
  .text.LCD_Send_String
-                0x00002fca       0x1a main.o
-                0x00002fca                LCD_Send_String
+                0x00002f90       0x1a main.o
+                0x00002f90                LCD_Send_String
  .text.LCD_Init
-                0x00002fe4       0x92 main.o
-                0x00002fe4                LCD_Init
- .text.Init     0x00003076       0x12 main.o
-                0x00003076                Init
- .text.main     0x00003088      0x106 main.o
-                0x00003088                main
+                0x00002faa       0x92 main.o
+                0x00002faa                LCD_Init
+ .text.Init     0x0000303c        0xe main.o
+                0x0000303c                Init
+ .text.main     0x0000304a      0x106 main.o
+                0x0000304a                main
  .text.EXT_INT0_Init
-                0x0000318e       0x1a MCAL/External_Interrupt.o
+                0x00003150       0x1a MCAL/External_Interrupt.o
  .text.EXT_INT1_Init
-                0x000031a8       0x24 MCAL/External_Interrupt.o
+                0x0000316a       0x24 MCAL/External_Interrupt.o
  .text.EXT_INT2_Init
-                0x000031cc       0x20 MCAL/External_Interrupt.o
+                0x0000318e       0x20 MCAL/External_Interrupt.o
  .text.EXT_INTx_Init
-                0x000031ec       0x5a MCAL/External_Interrupt.o
-                0x000031ec                EXT_INTx_Init
+                0x000031ae       0x5a MCAL/External_Interrupt.o
+                0x000031ae                EXT_INTx_Init
  .text.__vector_1
-                0x00003246       0x58 MCAL/External_Interrupt.o
-                0x00003246                __vector_1
+                0x00003208       0x58 MCAL/External_Interrupt.o
+                0x00003208                __vector_1
  .text.__vector_2
-                0x0000329e       0x58 MCAL/External_Interrupt.o
-                0x0000329e                __vector_2
+                0x00003260       0x58 MCAL/External_Interrupt.o
+                0x00003260                __vector_2
  .text.__vector_3
-                0x000032f6       0x58 MCAL/External_Interrupt.o
-                0x000032f6                __vector_3
+                0x000032b8       0x58 MCAL/External_Interrupt.o
+                0x000032b8                __vector_3
  .text.libgcc.div
-                0x0000334e       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x0000334e                __udivmodsi4
+                0x00003310       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00003310                __udivmodsi4
  .text.avr-libc
-                0x00003392       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
-                0x00003392                memcpy_P
-                0x000033a4                . = ALIGN (0x2)
+                0x00003354       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                0x00003354                memcpy_P
+                0x00003366                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000033a4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x000033a4                _exit
-                0x000033a4                exit
+ .fini9         0x00003366        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00003366                _exit
+                0x00003366                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -2607,11 +2598,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000033a4        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00003366        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000033a8                _etext = .
+                0x0000336a                _etext = .
 
-.data           0x00800060      0x1be load address 0x000033a8
+.data           0x00800060      0x1a0 load address 0x0000336a
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -2630,46 +2621,46 @@ END GROUP
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x008001cf       0x4e main.o
-                                 0x55 (size before relaxing)
+                0x008001cf       0x30 main.o
+                                 0x37 (size before relaxing)
  *(.gnu.linkonce.r*)
-                0x0080021e                . = ALIGN (0x2)
- *fill*         0x0080021d        0x1 
-                0x0080021e                _edata = .
-                0x0080021e                PROVIDE (__data_end, .)
+                0x00800200                . = ALIGN (0x2)
+ *fill*         0x008001ff        0x1 
+                0x00800200                _edata = .
+                0x00800200                PROVIDE (__data_end, .)
 
-.bss            0x0080021e       0xd9
-                0x0080021e                PROVIDE (__bss_start, .)
+.bss            0x00800200       0xd9
+                0x00800200                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.begin_flag
-                0x0080021e        0x1 main.o
-                0x0080021e                begin_flag
+                0x00800200        0x1 main.o
+                0x00800200                begin_flag
  .bss.test_flag
-                0x0080021f        0x1 main.o
-                0x0080021f                test_flag
+                0x00800201        0x1 main.o
+                0x00800201                test_flag
  *(COMMON)
- COMMON         0x00800220       0xd1 main.o
-                0x00800220                temp
-                0x0080022e                logic_array
-                0x0080026c                clk
-                0x008002aa                read_Logic_temp
-                0x008002ac                trav_ICs
-                0x008002ad                dont_care
-                0x008002eb                temp_Name
- COMMON         0x008002f1        0x6 MCAL/External_Interrupt.o
-                0x008002f1                Interrupt0_callback
-                0x008002f3                Interrupt2_callback
-                0x008002f5                Interrupt1_callback
-                0x008002f7                PROVIDE (__bss_end, .)
-                0x000033a8                __data_load_start = LOADADDR (.data)
-                0x00003566                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800202       0xd1 main.o
+                0x00800202                temp
+                0x00800210                logic_array
+                0x0080024e                clk
+                0x0080028c                read_Logic_temp
+                0x0080028e                trav_ICs
+                0x0080028f                dont_care
+                0x008002cd                temp_Name
+ COMMON         0x008002d3        0x6 MCAL/External_Interrupt.o
+                0x008002d3                Interrupt0_callback
+                0x008002d5                Interrupt2_callback
+                0x008002d7                Interrupt1_callback
+                0x008002d9                PROVIDE (__bss_end, .)
+                0x0000336a                __data_load_start = LOADADDR (.data)
+                0x0000350a                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008002f7        0x0
+.noinit         0x008002d9        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008002f7                _end = .
+                0x008002d9                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -2735,21 +2726,21 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x148
+.debug_aranges  0x00000000      0x130
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0xf8 main.o
+                0x00000000       0xe0 main.o
  .debug_aranges
-                0x000000f8       0x50 MCAL/External_Interrupt.o
+                0x000000e0       0x50 MCAL/External_Interrupt.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x57bf
+.debug_info     0x00000000     0x5726
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x4e6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
- .debug_info    0x000004e6     0x508e main.o
- .debug_info    0x00005574      0x24b MCAL/External_Interrupt.o
+ .debug_info    0x000004e6     0x4ff5 main.o
+ .debug_info    0x000054db      0x24b MCAL/External_Interrupt.o
 
 .debug_abbrev   0x00000000      0x8f6
  *(.debug_abbrev)
@@ -2757,29 +2748,29 @@ END GROUP
  .debug_abbrev  0x000004a3      0x361 main.o
  .debug_abbrev  0x00000804       0xf2 MCAL/External_Interrupt.o
 
-.debug_line     0x00000000      0xb77
+.debug_line     0x00000000      0xaee
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x116 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
- .debug_line    0x00000116      0x85c main.o
- .debug_line    0x00000972      0x205 MCAL/External_Interrupt.o
+ .debug_line    0x00000116      0x7d3 main.o
+ .debug_line    0x000008e9      0x205 MCAL/External_Interrupt.o
 
-.debug_frame    0x00000000      0x3dc
+.debug_frame    0x00000000      0x3a0
  *(.debug_frame)
- .debug_frame   0x00000000      0x274 main.o
- .debug_frame   0x00000274      0x168 MCAL/External_Interrupt.o
+ .debug_frame   0x00000000      0x238 main.o
+ .debug_frame   0x00000238      0x168 MCAL/External_Interrupt.o
 
-.debug_str      0x00000000     0x2691
+.debug_str      0x00000000     0x2667
  *(.debug_str)
  .debug_str     0x00000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
- .debug_str     0x00000196     0x2401 main.o
-                               0x2465 (size before relaxing)
- .debug_str     0x00002597       0xfa MCAL/External_Interrupt.o
+ .debug_str     0x00000196     0x23d7 main.o
+                               0x243b (size before relaxing)
+ .debug_str     0x0000256d       0xfa MCAL/External_Interrupt.o
                                 0x2c2 (size before relaxing)
 
-.debug_loc      0x00000000      0xec1
+.debug_loc      0x00000000      0xe6a
  *(.debug_loc)
- .debug_loc     0x00000000      0xb7f main.o
- .debug_loc     0x00000b7f      0x342 MCAL/External_Interrupt.o
+ .debug_loc     0x00000000      0xb28 main.o
+ .debug_loc     0x00000b28      0x342 MCAL/External_Interrupt.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -2799,10 +2790,10 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0x128
+.debug_ranges   0x00000000      0x110
  *(.debug_ranges)
- .debug_ranges  0x00000000       0xe8 main.o
- .debug_ranges  0x000000e8       0x40 MCAL/External_Interrupt.o
+ .debug_ranges  0x00000000       0xd0 main.o
+ .debug_ranges  0x000000d0       0x40 MCAL/External_Interrupt.o
 
 .debug_macro
  *(.debug_macro)

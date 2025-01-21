@@ -16,6 +16,7 @@
 /* =========================Init function ====================== */
 void Init(void);
 uint8_t Number_of_ICs = 180 ;
+uint8_t trav_ICs;
 /* =========================test functions ====================== */
 bool Test_IC(IC_INFO *ic);
 
