@@ -1,40 +1,41 @@
 🔌 IC Tester Using ATmega32A
 📌 Overview
-This project is an IC Tester built around the ATmega32A microcontroller. It automatically recognizes and tests logic ICs from popular families such as 74xxx, 40xxx, and 45xxx, verifying their functionality and reporting results via UART.
+This project is a smart IC Tester based on the ATmega32A microcontroller. It is designed to automatically recognize and verify the functionality of digital logic ICs from the 74xxx, 40xxx, and 45xxx families. Test results are transmitted via UART and can be viewed on serial terminals like PuTTY.
 
 ⚙️ Features
-Automatic Recognition of logic ICs from families: 74xxx, 40xxx, and 45xxx
+✅ Automatic recognition of ICs from: 74xxx, 40xxx, 45xxx families
 
-Validates logical behavior of gates (e.g., inverters, AND, OR, etc.)
+✅ Validates logic behavior (e.g., Inverter, AND, OR, etc.)
 
-Uses external interrupt to trigger the test
+✅ Uses external interrupt to trigger the test
 
-Serial output via UART (viewable in PuTTY or any serial terminal)
+✅ Sends results over UART (viewable in PuTTY or any serial terminal)
 
-Repeatable testing with a simple button press
+✅ Supports repeatable testing with a button press
 
 🛠️ Hardware Components
-ATmega32A Microcontroller
+🔹 ATmega32A Microcontroller
 
-Logic ICs (e.g., 7404, 4011, 4511, etc.)
+🔹 Logic ICs (e.g., 7404, 4011, 4511, etc.)
 
-CH340 USB-to-TTL Module
+🔹 CH340 USB-to-TTL Module
 
-Push Button (for interrupt)
+🔹 Push Button (Interrupt Trigger)
 
-Breadboard & Jumper Wires
+🔹 Breadboard & Jumper Wires
 
-Optional: LEDs for visual logic level indication
+🔹 (Optional) LEDs for visual output indication
 
 🧠 How It Works
-Connect the IC to the tester according to pin mapping.
+Connect a logic IC to the tester based on predefined pin mapping
 
-Press the test button to trigger an interrupt.
+Press the test button to trigger an external interrupt
 
-The microcontroller applies test patterns and reads outputs.
+The microcontroller runs logic tests by applying input patterns
 
-It identifies the IC and sends the test result via UART to the PC.
+IC identity and test results are sent via UART to your PC
 
-👨‍💻 Developed by
+👨‍💻 Developed By
 Mohamed Ali Mohamed Hasabeen
 Student @ Alexandria University
+Fully designed and implemented the hardware, firmware, and communication protocols.
